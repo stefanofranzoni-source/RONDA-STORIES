@@ -1,20 +1,55 @@
-# File generati da Flutter/Dart
+# ─── Flutter / Dart ───────────────────────────────────────────────────────────
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
 build/
-.pub-cache/
-.pub/
+pubspec.lock
 
-# IDE
-.vscode/
+# ─── Android (escludi solo file locali/generati) ──────────────────────────────
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/google-services.json
+# ─── File extra nella cartella res (non sono asset Android standard) ──────────
+android/app/src/main/res/ic_launcher_1024.png
+android/app/src/main/res/icon_1024.png
+android/app/src/main/res/logo_ronda.png
+
+# ─── Log Kotlin ──────────────────
+android/.kotlin/
+
+# ─── Windows (escludi solo file generati) ─────────────────────────────────────
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+
+# ─── iOS / macOS ──────────────────────────────────────────────────────────────
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/.symlinks/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
 .idea/
+.vscode/settings.json
+*.iml
 
-# Piattaforme (le genereremo più avanti con `flutter create .`)
-android/
-ios/
-web/
+# ─── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Chiavi e segreti ─────────────────────────────────────────────────────────
+*.jks
+*.keystore
+*.p12
+*.pem
+google-services.json
+GoogleService-Info.plist
+
+# ─── Piattaforme non usate (per ora)───────────────────────────────────────────
 linux/
 macos/
-windows/
+web/
+ios/

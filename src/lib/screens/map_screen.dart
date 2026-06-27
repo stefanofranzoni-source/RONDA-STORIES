@@ -709,7 +709,8 @@ class _GpsStatusBanner extends StatelessWidget {
 /// quando un POI scatta. Design essenziale ma curato:
 /// intestazione Corten con numero e titolo, corpo bianco con
 /// testo leggibile outdoor, pulsante Ascolta prominente.
-class _PoiInfoCard extends StatelessWidget {
+/// Il testo scorre automaticamente mentre la voce legge.
+class _PoiInfoCard extends StatefulWidget {
   final Poi poi;
   final int totalPoi;
   final bool isPreview;
@@ -718,7 +719,7 @@ class _PoiInfoCard extends StatelessWidget {
   final AppStrings strings;
   final VoidCallback onClose;
 
-  static const _cortenColor = Color(0xFFB7472A);
+  static const cortenColor = Color(0xFFB7472A);
 
   const _PoiInfoCard({
     required this.poi,
@@ -731,13 +732,92 @@ class _PoiInfoCard extends StatelessWidget {
   });
 
   @override
+  State<_PoiInfoCard> createState() => _PoiInfoCardState();
+}
+
+class _PoiInfoCardState extends State<_PoiInfoCard> {
+  final ScrollController _scrollController = ScrollController();
+  Timer? _scrollTimer;
+
+  static const _cortenColor = Color(0xFFB7472A);
+
+  @override
+  void initState() {
+    super.initState();
+    widget.ttsService.addListener(_onTtsChanged);
+  }
+
+  @override
+  void dispose() {
+    _scrollTimer?.cancel();
+    _scrollController.dispose();
+    widget.ttsService.removeListener(_onTtsChanged);
+    super.dispose();
+  }
+
+  void _onTtsChanged() {
+    if (widget.ttsService.isSpeaking) {
+      _startScrollAnimation();
+    } else {
+      _stopScrollAnimation();
+    }
+  }
+
+  void _startScrollAnimation() {
+    _scrollTimer?.cancel();
+    // Torna all'inizio prima di scorrere
+    if (_scrollController.hasClients) {
+      _scrollController.jumpTo(0);
+    }
+
+    final lang = widget.languageController.currentLanguage;
+    final text = widget.poi.contentFor(lang).text;
+
+    // Stima durata lettura: ~13 caratteri al secondo alla velocità 0.45
+    // proporzionale alla speechRate corrente
+    final rate = widget.ttsService.speechRate;
+    final charsPerSecond = 13.0 * (rate / 0.45);
+    final estimatedMs = (text.length / charsPerSecond * 1000).round();
+
+    // Aggiorniamo la posizione scroll ogni 100ms proporzionalmente
+    const intervalMs = 100;
+    int elapsed = 0;
+
+    _scrollTimer = Timer.periodic(
+      const Duration(milliseconds: intervalMs),
+      (timer) {
+        elapsed += intervalMs;
+        if (!_scrollController.hasClients || !widget.ttsService.isSpeaking) {
+          timer.cancel();
+          return;
+        }
+        final maxScroll = _scrollController.position.maxScrollExtent;
+        if (maxScroll <= 0) return;
+
+        final progress = (elapsed / estimatedMs).clamp(0.0, 1.0);
+        _scrollController.animateTo(
+          maxScroll * progress,
+          duration: const Duration(milliseconds: 120),
+          curve: Curves.linear,
+        );
+
+        if (elapsed >= estimatedMs) timer.cancel();
+      },
+    );
+  }
+
+  void _stopScrollAnimation() {
+    _scrollTimer?.cancel();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return AnimatedBuilder(
-      animation: Listenable.merge([languageController, ttsService]),
+      animation: Listenable.merge([widget.languageController, widget.ttsService]),
       builder: (context, _) {
-        final lang = languageController.currentLanguage;
-        final localized = poi.contentFor(lang);
-        final isSpeaking = ttsService.isSpeaking;
+        final lang = widget.languageController.currentLanguage;
+        final localized = widget.poi.contentFor(lang);
+        final isSpeaking = widget.ttsService.isSpeaking;
 
         return Material(
           elevation: 8,
@@ -767,7 +847,7 @@ class _PoiInfoCard extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                           ),
                           child: Text(
-                            isPreview ? '👁 Anteprima' : '${poi.order} · $totalPoi',
+                            widget.isPreview ? '👁 Anteprima' : '${widget.poi.order} · ${widget.totalPoi}',
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 11,
@@ -776,7 +856,6 @@ class _PoiInfoCard extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 10),
-                        // Titolo POI
                         Expanded(
                           child: Text(
                             localized.title,
@@ -789,7 +868,6 @@ class _PoiInfoCard extends StatelessWidget {
                             overflow: TextOverflow.ellipsis,
                           ),
                         ),
-                        // Pulsante chiudi
                         IconButton(
                           icon: const Icon(Icons.close, color: Colors.white70),
                           iconSize: 20,
@@ -797,17 +875,22 @@ class _PoiInfoCard extends StatelessWidget {
                           constraints: const BoxConstraints(
                             minWidth: 32, minHeight: 32,
                           ),
-                          tooltip: strings.close,
-                          onPressed: onClose,
+                          tooltip: widget.strings.close,
+                          onPressed: widget.onClose,
                         ),
                       ],
                     ),
                   ),
 
-                  // Corpo: testo scorrevole
+                  // Corpo: testo con scroll animato durante TTS
                   Flexible(
                     child: SingleChildScrollView(
+                      controller: _scrollController,
                       padding: const EdgeInsets.fromLTRB(16, 14, 16, 4),
+                      // Disabilita scroll manuale durante la lettura automatica
+                      physics: isSpeaking
+                          ? const NeverScrollableScrollPhysics()
+                          : const ClampingScrollPhysics(),
                       child: Text(
                         localized.text,
                         style: const TextStyle(
@@ -834,9 +917,9 @@ class _PoiInfoCard extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(10),
                                 ),
                               ),
-                              onPressed: () => ttsService.stop(),
+                              onPressed: () => widget.ttsService.stop(),
                               icon: const Icon(Icons.stop_rounded),
-                              label: Text(strings.stopListening),
+                              label: Text(widget.strings.stopListening),
                             )
                           : FilledButton.icon(
                               style: FilledButton.styleFrom(
@@ -848,10 +931,14 @@ class _PoiInfoCard extends StatelessWidget {
                                 ),
                               ),
                               onPressed: () {
-                                ttsService
+                                // Torna all'inizio prima di ripartire
+                                if (_scrollController.hasClients) {
+                                  _scrollController.jumpTo(0);
+                                }
+                                widget.ttsService
                                     .speak(localized.text, languageCode: lang)
                                     .then((_) {
-                                  final error = ttsService.lastError;
+                                  final error = widget.ttsService.lastError;
                                   if (error != null && context.mounted) {
                                     ScaffoldMessenger.of(context).showSnackBar(
                                       SnackBar(content: Text(error)),
@@ -860,7 +947,7 @@ class _PoiInfoCard extends StatelessWidget {
                                 });
                               },
                               icon: const Icon(Icons.volume_up_rounded),
-                              label: Text(strings.listen),
+                              label: Text(widget.strings.listen),
                             ),
                     ),
                   ),

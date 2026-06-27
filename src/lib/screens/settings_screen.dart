@@ -78,7 +78,6 @@ class SettingsScreen extends StatelessWidget {
                     value: ttsService.speechRate,
                     min: 0.25,
                     max: 0.9,
-                    // Etichette ai due estremi per chiarire il significato
                     minLabel: '🐢',
                     maxLabel: '🐇',
                     onChanged: (v) => ttsService.setSpeechRate(v),
