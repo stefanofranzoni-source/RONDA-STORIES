@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
+import 'package:flutter_map_compass/flutter_map_compass.dart';
 import 'package:latlong2/latlong.dart' as ll;
 import '../models/circuit.dart';
 import '../models/poi.dart';
@@ -50,6 +51,10 @@ class _MapScreenState extends State<MapScreen> {
   // POI come visitato e il TTS non parte automaticamente.
   bool _previewMode = false;
 
+  // Numero di POI visitati al momento del trigger del POI attivo.
+  // Usato dalla card per scegliere se mostrare il testo normale o l'altText.
+  int _activePoiVisitedCount = 0;
+
   Timer? _autoCloseTimer;
 
   @override
@@ -59,7 +64,7 @@ class _MapScreenState extends State<MapScreen> {
     _trackRecorder = TrackRecorder();
     _gpsController = GeoPositionController(widget.circuit, _trackRecorder);
 
-    _gpsController.onPoiTriggered = (poi) {
+    _gpsController.onPoiTriggered = (poi, visitedCount) {
       final behavior = widget.circuit.poiPanelBehavior;
 
       // Segna il POI come visitato per aggiornare il suo marker sulla mappa
@@ -67,15 +72,25 @@ class _MapScreenState extends State<MapScreen> {
 
       if (behavior == PoiPanelBehavior.silent) return;
 
-      // Se il behavior è "tts_only", legge ma non mostra il pannello.
       if (behavior != PoiPanelBehavior.ttsOnly) {
-        setState(() => _activePoi = poi);
+        setState(() {
+          _activePoi = poi;
+          _previewMode = false;
+          _activePoiVisitedCount = visitedCount;
+        });
       }
 
       final lang = widget.languageController.currentLanguage;
       final localized = poi.contentFor(lang);
 
-      widget.ttsService.speak(localized.text, languageCode: lang).then((_) {
+      // Usa altText se disponibile e se il POI è già stato visitato almeno
+      // una volta (visitedCount > 0 significa che altri POI sono già stati
+      // visitati prima di tornare qui — es. ritorno al punto di partenza).
+      final textToRead = (visitedCount > 0 && localized.altText != null)
+          ? localized.altText!
+          : localized.text;
+
+      widget.ttsService.speak(textToRead, languageCode: lang).then((_) {
         final error = widget.ttsService.lastError;
         if (error != null && mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
@@ -84,8 +99,6 @@ class _MapScreenState extends State<MapScreen> {
         }
       });
 
-      // Per il behavior "auto", registriamo il callback di completamento
-      // TTS e avviamo il timer di chiusura dopo il delay configurato.
       if (behavior == PoiPanelBehavior.auto) {
         widget.ttsService.onSpeakCompleted = () {
           _autoCloseTimer?.cancel();
@@ -95,7 +108,6 @@ class _MapScreenState extends State<MapScreen> {
               if (mounted) setState(() => _activePoi = null);
             },
           );
-          // Puliamo il callback dopo l'uso per non accumularne.
           widget.ttsService.onSpeakCompleted = null;
         };
       }
@@ -126,6 +138,7 @@ class _MapScreenState extends State<MapScreen> {
     setState(() {
       _activePoi = poi;
       _previewMode = true;
+      _activePoiVisitedCount = 0;
     });
   }
 
@@ -323,11 +336,17 @@ class _MapScreenState extends State<MapScreen> {
                             ),
                           ],
                         ),
+                        // Bussola sempre visibile — mostra il nord,
+                        // ruota con la mappa, toccandola riporta al nord.
+                        const MapCompass.cupertino(
+                          hideIfRotatedNorth: false,
+                          alignment: Alignment.topRight,
+                          padding: EdgeInsets.fromLTRB(0, 80, 10, 0),
+                        ),
                       ],
                     ),
 
-                    // Card informativa POI (non modale)
-                    // Card POI con animazione slide-up
+                    // Card informativa POI
                     Positioned(
                       left: 0,
                       right: 0,
@@ -358,6 +377,7 @@ class _MapScreenState extends State<MapScreen> {
                                   poi: _activePoi!,
                                   totalPoi: circuit.poi.length,
                                   isPreview: _previewMode,
+                                  visitedCount: _activePoiVisitedCount,
                                   languageController: widget.languageController,
                                   ttsService: widget.ttsService,
                                   strings: strings,
@@ -368,7 +388,6 @@ class _MapScreenState extends State<MapScreen> {
                       ),
                     ),
 
-                    // Pulsante "Ricentra sulla mia posizione":
                     // appare solo quando il follow è disattivato
                     // E la card POI non è aperta (evita sovrapposizioni).
                     if (!_followUser && _activePoi == null)
@@ -714,6 +733,7 @@ class _PoiInfoCard extends StatefulWidget {
   final Poi poi;
   final int totalPoi;
   final bool isPreview;
+  final int visitedCount;
   final LanguageController languageController;
   final TtsService ttsService;
   final AppStrings strings;
@@ -725,6 +745,7 @@ class _PoiInfoCard extends StatefulWidget {
     required this.poi,
     required this.totalPoi,
     required this.isPreview,
+    required this.visitedCount,
     required this.languageController,
     required this.ttsService,
     required this.strings,
@@ -765,19 +786,21 @@ class _PoiInfoCardState extends State<_PoiInfoCard> {
 
   void _startScrollAnimation() {
     _scrollTimer?.cancel();
-    // Torna all'inizio prima di scorrere
     if (_scrollController.hasClients) {
       _scrollController.jumpTo(0);
     }
 
     final lang = widget.languageController.currentLanguage;
-    final text = widget.poi.contentFor(lang).text;
+    final localized = widget.poi.contentFor(lang);
+    final displayText = (widget.visitedCount > 0 && localized.altText != null)
+        ? localized.altText!
+        : localized.text;
 
     // Stima durata lettura: ~13 caratteri al secondo alla velocità 0.45
     // proporzionale alla speechRate corrente
     final rate = widget.ttsService.speechRate;
     final charsPerSecond = 13.0 * (rate / 0.45);
-    final estimatedMs = (text.length / charsPerSecond * 1000).round();
+    final estimatedMs = (displayText.length / charsPerSecond * 1000).round();
 
     // Aggiorniamo la posizione scroll ogni 100ms proporzionalmente
     const intervalMs = 100;
@@ -818,6 +841,11 @@ class _PoiInfoCardState extends State<_PoiInfoCard> {
         final lang = widget.languageController.currentLanguage;
         final localized = widget.poi.contentFor(lang);
         final isSpeaking = widget.ttsService.isSpeaking;
+
+        // Usa altText se il POI è stato già visitato e l'altText è disponibile
+        final displayText = (widget.visitedCount > 0 && localized.altText != null)
+            ? localized.altText!
+            : localized.text;
 
         return Material(
           elevation: 8,
@@ -887,12 +915,11 @@ class _PoiInfoCardState extends State<_PoiInfoCard> {
                     child: SingleChildScrollView(
                       controller: _scrollController,
                       padding: const EdgeInsets.fromLTRB(16, 14, 16, 4),
-                      // Disabilita scroll manuale durante la lettura automatica
                       physics: isSpeaking
                           ? const NeverScrollableScrollPhysics()
                           : const ClampingScrollPhysics(),
                       child: Text(
-                        localized.text,
+                        displayText,
                         style: const TextStyle(
                           fontSize: 14.5,
                           height: 1.55,
@@ -936,7 +963,7 @@ class _PoiInfoCardState extends State<_PoiInfoCard> {
                                   _scrollController.jumpTo(0);
                                 }
                                 widget.ttsService
-                                    .speak(localized.text, languageCode: lang)
+                                    .speak(displayText, languageCode: lang)
                                     .then((_) {
                                   final error = widget.ttsService.lastError;
                                   if (error != null && context.mounted) {

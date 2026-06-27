@@ -43,9 +43,12 @@ class GeoPositionController extends ChangeNotifier {
   double? get currentAlt => _currentAlt;
   double get currentAccuracyM => _currentAccuracyM;
 
-  // Callback invocata quando un POI entra nel raggio: la MapScreen
-  // si registra qui per mostrare il pannello informativo.
-  void Function(Poi poi)? onPoiTriggered;
+  // Callback invocata quando un POI entra nel raggio.
+  // [poi] è il punto di interesse scattato.
+  // [visitedCount] è il numero di POI DIVERSI già visitati prima di questo
+  // trigger — usato dalla MapScreen per scegliere il testo alternativo
+  // (es. messaggio di ritorno al punto di partenza).
+  void Function(Poi poi, int visitedCount)? onPoiTriggered;
 
   final Set<String> _triggeredPoiIds = {};
   StreamSubscription<Position>? _positionSubscription;
@@ -148,8 +151,11 @@ class GeoPositionController extends ChangeNotifier {
       final alreadyTriggered = _triggeredPoiIds.contains(poi.id);
 
       if (isInsideRadius && !alreadyTriggered) {
+        // visitedCount = quanti POI DIVERSI da questo sono già stati
+        // visitati — esclude il POI corrente che sta scattando ora.
+        final visitedCount = _triggeredPoiIds.length;
         _triggeredPoiIds.add(poi.id);
-        onPoiTriggered?.call(poi);
+        onPoiTriggered?.call(poi, visitedCount);
       }
 
       if (!isInsideRadius && alreadyTriggered && circuit.poiRetrigger) {

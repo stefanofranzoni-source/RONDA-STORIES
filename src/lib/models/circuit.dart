@@ -75,10 +75,17 @@ class Circuit {
   }
 
   factory Circuit.fromJson(Map<String, dynamic> json) {
-    final poiList = (json['poi'] as List<dynamic>)
-        .map((item) => Poi.fromJson(item as Map<String, dynamic>))
+    // L'ordine viene dalla posizione nell'array — nessun sort necessario,
+    // nessun campo "order" nel JSON da mantenere aggiornato.
+    final rawPoi = json['poi'] as List<dynamic>;
+    final poiList = rawPoi
+        .asMap()
+        .entries
+        .map((e) => Poi.fromJson(
+              e.value as Map<String, dynamic>,
+              order: e.key + 1, // 1-based
+            ))
         .toList();
-    poiList.sort((a, b) => a.order.compareTo(b.order));
 
     final rawSubtitle = json['subtitle'];
     final Map<String, String> subtitleMap;
