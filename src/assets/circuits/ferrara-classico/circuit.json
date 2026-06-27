@@ -1,0 +1,1294 @@
+{
+  "circuit_id": "ferrara-classico",
+  "name": "Ferraronda",
+  "icon": "icon.png",
+  "subtitle": {
+    "it": "4 passi tra le mura estensi",
+    "en": "4 steps through the Estense walls",
+    "zh": "漫步埃斯特城墙四步之旅"
+  },
+  "languages": [
+    "it",
+    "en",
+    "zh"
+  ],
+  "default_language": "it",
+  "theme_color": "#B7472A",
+  "poi_retrigger": true,
+  "poi_panel_behavior": "auto",
+  "poi_auto_close_delay_s": 4,
+  "poi": [
+    {
+      "id": "baluardo_san_paolo",
+      "order": 1,
+      "lat": 44.83252,
+      "lon": 11.61586,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo di San Paolo",
+          "text": "Il Baluardo di San Paolo è uno dei bastioni angolari delle mura estensi, costruito per rafforzare la difesa della città nel sistema difensivo voluto dagli Este."
+        },
+        "en": {
+          "title": "Bastion of San Paolo",
+          "text": "The Bastion of San Paolo is one of the corner bastions of the Este walls, built to reinforce the city's defences within the defensive system established by the Este family."
+        },
+        "zh": {
+          "title": "圣保罗棱堡",
+          "text": "圣保罗棱堡是埃斯特城墙的角形棱堡之一，为加强埃斯特家族防御体系而建造。"
+        }
+      }
+    },
+    {
+      "id": "porta_paola",
+      "order": 2,
+      "lat": 44.83233,
+      "lon": 11.61644,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Porta Paola",
+          "text": "Porta Paola è una delle porte minori delle mura estensi, che prende il nome dal pontefice Paolo V. Rappresenta uno degli accessi secondari alla città, inserito nel sistema difensivo della cinta muraria meridionale."
+        },
+        "en": {
+          "title": "Porta Paola",
+          "text": "Porta Paola is one of the minor gates of the Este walls, named after Pope Paul V. It represents one of the secondary accesses to the city, integrated into the defensive system of the southern city walls."
+        },
+        "zh": {
+          "title": "保罗门",
+          "text": "保罗门是埃斯特城墙的次要城门之一，以教皇保罗五世命名。它是城市的次要入口之一，融入了南段城墙的防御体系。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_san_lorenzo",
+      "order": 3,
+      "lat": 44.8317,
+      "lon": 11.61775,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo di San Lorenzo",
+          "text": "Il Baluardo di San Lorenzo presidia il tratto meridionale delle mura, in prossimità dell'antica via di accesso alla città."
+        },
+        "en": {
+          "title": "Bastion of San Lorenzo",
+          "text": "The Bastion of San Lorenzo guards the southern stretch of the walls, near the ancient access road to the city."
+        },
+        "zh": {
+          "title": "圣洛伦佐棱堡",
+          "text": "圣洛伦佐棱堡守护着城墙南段，毗邻古老的城市入口道路。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_porta_san_pietro",
+      "order": 4,
+      "lat": 44.82792,
+      "lon": 11.62137,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo e Porta di San Pietro",
+          "text": "La Porta di San Pietro era uno degli accessi principali alla città medievale. Il baluardo adiacente ne rafforzava la difesa con una struttura poligonale tipica dell'architettura militare rinascimentale."
+        },
+        "en": {
+          "title": "Bastion and Gate of San Pietro",
+          "text": "The Gate of San Pietro was one of the main entrances to the medieval city. The adjacent bastion reinforced its defence with a polygonal structure typical of Renaissance military architecture."
+        },
+        "zh": {
+          "title": "圣彼得棱堡与城门",
+          "text": "圣彼得城门是中世纪城市的主要入口之一。相邻的棱堡以典型的文艺复兴军事建筑多边形结构加强了防御。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_sant_antonio",
+      "order": 5,
+      "lat": 44.82629,
+      "lon": 11.62198,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo di Sant'Antonio",
+          "text": "Il Baluardo di Sant'Antonio fa parte del sistema difensivo meridionale delle mura estensi, caratterizzato da una forma pentagonale che permetteva un fuoco incrociato efficace."
+        },
+        "en": {
+          "title": "Bastion of Sant'Antonio",
+          "text": "The Bastion of Sant'Antonio is part of the southern defensive system of the Este walls, characterised by a pentagonal shape that allowed effective crossfire."
+        },
+        "zh": {
+          "title": "圣安东尼奥棱堡",
+          "text": "圣安东尼奥棱堡是埃斯特城墙南部防御体系的一部分，其五边形造型可实现有效的交叉火力。"
+        }
+      }
+    },
+    {
+      "id": "mura_borso",
+      "order": 6,
+      "lat": 44.82584,
+      "lon": 11.62389,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Le Mura Nuove di Borso d'Este",
+          "text": "Questo tratto rappresenta una delle prime espansioni delle mura estensi, voluta da Borso d'Este nel Quattrocento. Borso fu il primo duca di Ferrara e diede un impulso fondamentale allo sviluppo urbanistico della città, anticipando la grande Addizione Erculea."
+        },
+        "en": {
+          "title": "The New Walls of Borso d'Este",
+          "text": "This stretch represents one of the first expansions of the Este walls, commissioned by Borso d'Este in the fifteenth century. Borso was the first Duke of Ferrara and gave a fundamental impulse to the city's urban development, anticipating the great Herculean Addition."
+        },
+        "zh": {
+          "title": "博尔索·德·埃斯特新城墙",
+          "text": "这段城墙是埃斯特城墙最早的扩建之一，由15世纪的博尔索·德·埃斯特主导建造。博尔索是费拉拉第一位公爵，对城市发展产生了深远影响，为此后伟大的海格力斯扩建奠定了基础。"
+        }
+      }
+    },
+    {
+      "id": "porta_romana",
+      "order": 7,
+      "lat": 44.82467,
+      "lon": 11.6287,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Porta Romana o di San Giorgio",
+          "text": "La Porta Romana, detta anche di San Giorgio, era l'accesso principale verso sud della città estense, sulla direttrice per Roma. La sua posizione strategica la rendeva uno dei punti più importanti del sistema difensivo."
+        },
+        "en": {
+          "title": "Porta Romana or San Giorgio Gate",
+          "text": "The Porta Romana, also known as San Giorgio Gate, was the main southern access to the Este city, on the road to Rome. Its strategic position made it one of the most important points of the defensive system."
+        },
+        "zh": {
+          "title": "罗马门或圣乔治门",
+          "text": "罗马门又称圣乔治门，是埃斯特城市通往南方的主要入口，其战略位置使其成为防御体系中最重要的节点之一。"
+        }
+      }
+    },
+    {
+      "id": "barbacane_san_giorgio",
+      "order": 8,
+      "lat": 44.82531,
+      "lon": 11.63042,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Barbacane o Baluardo di San Giorgio",
+          "text": "Il Barbacane di San Giorgio è una struttura difensiva avanzata, posta a protezione della Porta Romana. I barbacani erano opere esterne alle mura che anticipavano e rallentavano l'avanzata del nemico."
+        },
+        "en": {
+          "title": "Barbican or Bastion of San Giorgio",
+          "text": "The Barbican of San Giorgio is an advanced defensive structure protecting the Porta Romana. Barbicans were external works outside the walls that anticipated and slowed the enemy's advance."
+        },
+        "zh": {
+          "title": "圣乔治外堡或棱堡",
+          "text": "圣乔治外堡是保护罗马门的前沿防御工事。外堡是城墙外的防御设施，用于阻滞敌军进攻。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_montagna",
+      "order": 9,
+      "lat": 44.82539,
+      "lon": 11.63423,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo della Montagna",
+          "text": "Il Baluardo della Montagna deve il suo nome all'accumulo di terra che caratterizzava questa struttura difensiva. Il terrapieno consentiva di assorbire i colpi dell'artiglieria e di piazzare cannoni in posizione sopraelevata."
+        },
+        "en": {
+          "title": "Bastion of the Mountain",
+          "text": "The Bastion of the Mountain takes its name from the mound of earth that characterised this defensive structure. The embankment absorbed artillery fire and allowed cannons to be placed in an elevated position."
+        },
+        "zh": {
+          "title": "山丘棱堡",
+          "text": "山丘棱堡因其防御结构特有的土丘而得名。土堤可吸收炮击并使大炮居高临下。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_san_rocco",
+      "order": 10,
+      "lat": 44.83461,
+      "lon": 11.63534,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Ex Baluardo di San Rocco",
+          "text": "L'ex Baluardo di San Rocco è oggi uno degli angoli più suggestivi delle mura estensi, trasformato nel corso dei secoli da opera difensiva a luogo di passeggio e sosta per i ferraresi."
+        },
+        "en": {
+          "title": "Former Bastion of San Rocco",
+          "text": "The former Bastion of San Rocco is today one of the most evocative corners of the Este walls, transformed over the centuries from a defensive work into a place for walks and rest for the people of Ferrara."
+        },
+        "zh": {
+          "title": "前圣罗科棱堡",
+          "text": "前圣罗科棱堡如今是埃斯特城墙最迷人的角落之一，几个世纪以来已从防御工事转变为费拉拉市民散步休憩之所。"
+        }
+      }
+    },
+    {
+      "id": "mura_ercole",
+      "order": 11,
+      "lat": 44.841,
+      "lon": 11.63426,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Le Mura di Ercole I d'Este, Torrione San Giovanni",
+          "text": "Questo tratto delle mura fu costruito durante la grande espansione urbanistica voluta da Ercole I d'Este alla fine del Quattrocento, che raddoppiò la superficie della città con la cosiddetta Addizione Erculea, progettata dall'architetto Biagio Rossetti."
+        },
+        "en": {
+          "title": "The Walls of Ercole I d'Este, Torrione San Giovanni",
+          "text": "This stretch of walls was built during the great urban expansion by Ercole I d'Este at the end of the 15th century, which doubled the city's surface area with the so-called Herculean Addition, designed by architect Biagio Rossetti."
+        },
+        "zh": {
+          "title": "埃尔科莱一世城墙，圣乔瓦尼塔楼",
+          "text": "这段城墙建于15世纪末埃尔科莱一世主导的大规模城市扩张时期，由建筑师比亚吉奥·罗塞蒂设计的扩建工程使城市面积翻倍。"
+        }
+      }
+    },
+    {
+      "id": "montagnola_barchetto",
+      "order": 12,
+      "lat": 44.8486,
+      "lon": 11.63213,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Montagnola del Barchetto o Rotonda",
+          "text": "La Montagnola del Barchetto è uno dei punti panoramici più belli lungo le mura, da cui si gode una vista ampia sulla città e sui bastioni. Il Barchetto era un parco di caccia riservato agli Este."
+        },
+        "en": {
+          "title": "Montagnola del Barchetto or Rotonda",
+          "text": "The Montagnola del Barchetto is one of the most beautiful panoramic points along the walls, offering a wide view over the city and the bastions. The Barchetto was a hunting park reserved for the Este family."
+        },
+        "zh": {
+          "title": "巴尔凯托山丘",
+          "text": "巴尔凯托山丘是城墙沿线最美的观景点之一，可俯瞰城市和棱堡。巴尔凯托曾是埃斯特家族专属的狩猎公园。"
+        }
+      }
+    },
+    {
+      "id": "porta_degli_angeli",
+      "order": 13,
+      "lat": 44.84922,
+      "lon": 11.62445,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Porta degli Angeli",
+          "text": "Porta degli Angeli è una delle porte storiche delle mura estensi, legata a suggestive leggende cittadine. Il suo nome evoca la presenza di un'antica chiesa dedicata agli angeli che sorgeva nelle vicinanze."
+        },
+        "en": {
+          "title": "Porta degli Angeli",
+          "text": "Porta degli Angeli is one of the historic gates of the Este walls, tied to evocative local legends. Its name recalls an ancient church dedicated to the angels that once stood nearby."
+        },
+        "zh": {
+          "title": "天使之门",
+          "text": "天使之门是埃斯特城墙的历史城门之一，与迷人的城市传说紧密相连。其名称源于附近曾矗立的一座天使教堂。"
+        }
+      }
+    },
+    {
+      "id": "le_mura",
+      "order": 14,
+      "lat": 44.84914,
+      "lon": 11.62422,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Le Mura",
+          "text": "Le mura estensi di Ferrara sono tra le più integre d'Europa: oltre 9 chilometri di cinta muraria quasi intatti, costruiti tra il 1451 e il 1520 e dichiarati Patrimonio dell'Umanità UNESCO nel 1999 insieme al centro storico."
+        },
+        "en": {
+          "title": "The Walls",
+          "text": "The Este walls of Ferrara are among the most intact in Europe: over 9 kilometres of almost unaltered city walls, built between 1451 and 1520 and declared a UNESCO World Heritage Site in 1999 together with the historic centre."
+        },
+        "zh": {
+          "title": "城墙",
+          "text": "费拉拉的埃斯特城墙是欧洲保存最完好的城墙之一：超过9公里几乎完好无损，建于1451年至1520年间，1999年与历史中心一同被列为联合国教科文组织世界遗产。"
+        }
+      }
+    },
+    {
+      "id": "torrione_barco",
+      "order": 15,
+      "lat": 44.8497,
+      "lon": 11.61612,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Torrione del Barco",
+          "text": "Il Torrione del Barco è una delle torri più imponenti dell'intera cinta muraria, costruita a presidio del Barco, l'ampio parco di caccia degli Este che si estendeva a nord della città."
+        },
+        "en": {
+          "title": "Tower of the Barco",
+          "text": "The Tower of the Barco is one of the most imposing towers of the entire city walls, built to guard the Barco, the large Este hunting park that extended north of the city."
+        },
+        "zh": {
+          "title": "巴尔科塔楼",
+          "text": "巴尔科塔楼是整段城墙中最雄伟的塔楼之一，为守卫延伸至城市北部的埃斯特家族大型狩猎公园而建。"
+        }
+      }
+    },
+    {
+      "id": "isola_belvedere",
+      "order": 16,
+      "lat": 44.83696,
+      "lon": 11.60414,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Isola e Palazzo di Belvedere",
+          "text": "L'Isola di Belvedere fu uno dei luoghi più ameni della Ferrara rinascimentale. Lunga circa un chilometro, era situata lungo l'antico corso del Po. La salubrità dell'aria e l'abbondanza di acqua spinsero Alfonso I d'Este a costruirvi, a partire dal 1513, un esclusivo complesso con giardini geometrici, fontane, animali esotici e un grande palazzo. L'isola venne completamente spianata nel 1618 per far posto alla nuova fortezza pontificia."
+        },
+        "en": {
+          "title": "Isola and Palazzo di Belvedere",
+          "text": "The Isola di Belvedere was one of the most pleasant places in Renaissance Ferrara. About a kilometre long, it lay along the ancient course of the River Po. The clean air and abundance of water led Alfonso I d'Este to build, from 1513, an exclusive complex with geometric gardens, fountains, exotic animals and a great palace. The island was completely levelled in 1618 to make way for the new papal fortress."
+        },
+        "zh": {
+          "title": "贝尔韦代雷岛与宫殿",
+          "text": "贝尔韦代雷岛是文艺复兴时期费拉拉最宜人的地方之一。这座约一公里长的岛屿位于古波河沿岸。1513年起，阿方索一世在此修建了专属府邸，包括几何花园、喷泉、异域动物和宏伟宫殿。1618年，小岛被彻底夷平为新教皇要塞让路。"
+        }
+      }
+    },
+    {
+      "id": "darsena",
+      "order": 17,
+      "lat": 44.83336,
+      "lon": 11.60904,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Darsena",
+          "text": "La Darsena di Ferrara era il porto fluviale della città estense, punto di arrivo e partenza di merci e viaggiatori lungo il Po. Oggi completamente riqualificata, è un vivace spazio ciclopedonale che unisce la città al suo passato legato all'acqua."
+        },
+        "en": {
+          "title": "Darsena",
+          "text": "The Darsena of Ferrara was the river port of the Este city, a point of arrival and departure for goods and travellers along the Po. Today completely renovated, it is a lively cycle and pedestrian area that connects the city to its water-related past."
+        },
+        "zh": {
+          "title": "达尔塞纳港",
+          "text": "费拉拉达尔塞纳港是埃斯特城市的河港。如今经过全面改造，已成为连接城市与其水上历史的活跃自行车和步行区域。"
+        }
+      }
+    },
+    {
+      "id": "partenza",
+      "order": 18,
+      "lat": 44.83491,
+      "lon": 11.61147,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Partenza / Arrivo",
+          "text": "Sei tornato al punto di partenza. Hai completato la Ferraronda: oltre 9 chilometri lungo le mura estensi, tra storia, leggende e paesaggi unici. Bentornato!"
+        },
+        "en": {
+          "title": "Start / Finish",
+          "text": "You have returned to the starting point. You have completed the Ferraronda: over 9 kilometres along the Este walls, through history, legends and unique landscapes. Welcome back!"
+        },
+        "zh": {
+          "title": "出发与终点",
+          "text": "您已回到出发点，完成了费拉伦达之旅：沿埃斯特城墙超过9公里，穿越历史、传说和独特风景。欢迎回来！"
+        }
+      }
+    }
+  ],
+  "route": [
+    {
+      "lat": 44.83491,
+      "lon": 11.61147
+    },
+    {
+      "lat": 44.834864,
+      "lon": 11.611611
+    },
+    {
+      "lat": 44.834736,
+      "lon": 11.611805
+    },
+    {
+      "lat": 44.834135,
+      "lon": 11.612359
+    },
+    {
+      "lat": 44.833645,
+      "lon": 11.613062
+    },
+    {
+      "lat": 44.833197,
+      "lon": 11.613323
+    },
+    {
+      "lat": 44.832698,
+      "lon": 11.613688
+    },
+    {
+      "lat": 44.832556,
+      "lon": 11.614358
+    },
+    {
+      "lat": 44.832529,
+      "lon": 11.614765
+    },
+    {
+      "lat": 44.832548,
+      "lon": 11.615038
+    },
+    {
+      "lat": 44.832478,
+      "lon": 11.61548
+    },
+    {
+      "lat": 44.83257,
+      "lon": 11.615753
+    },
+    {
+      "lat": 44.83229,
+      "lon": 11.616418
+    },
+    {
+      "lat": 44.832147,
+      "lon": 11.61692
+    },
+    {
+      "lat": 44.832006,
+      "lon": 11.617154
+    },
+    {
+      "lat": 44.831879,
+      "lon": 11.617493
+    },
+    {
+      "lat": 44.831811,
+      "lon": 11.617563
+    },
+    {
+      "lat": 44.831744,
+      "lon": 11.617555
+    },
+    {
+      "lat": 44.83146,
+      "lon": 11.617395
+    },
+    {
+      "lat": 44.830746,
+      "lon": 11.617494
+    },
+    {
+      "lat": 44.830506,
+      "lon": 11.617732
+    },
+    {
+      "lat": 44.830421,
+      "lon": 11.617868
+    },
+    {
+      "lat": 44.830338,
+      "lon": 11.618151
+    },
+    {
+      "lat": 44.830399,
+      "lon": 11.61842
+    },
+    {
+      "lat": 44.83035,
+      "lon": 11.618614
+    },
+    {
+      "lat": 44.830044,
+      "lon": 11.61909
+    },
+    {
+      "lat": 44.829898,
+      "lon": 11.619208
+    },
+    {
+      "lat": 44.829625,
+      "lon": 11.619341
+    },
+    {
+      "lat": 44.829109,
+      "lon": 11.619524
+    },
+    {
+      "lat": 44.828392,
+      "lon": 11.619832
+    },
+    {
+      "lat": 44.828335,
+      "lon": 11.619891
+    },
+    {
+      "lat": 44.82805,
+      "lon": 11.620792
+    },
+    {
+      "lat": 44.827878,
+      "lon": 11.621453
+    },
+    {
+      "lat": 44.827732,
+      "lon": 11.621663
+    },
+    {
+      "lat": 44.827488,
+      "lon": 11.621777
+    },
+    {
+      "lat": 44.826883,
+      "lon": 11.621928
+    },
+    {
+      "lat": 44.826426,
+      "lon": 11.621956
+    },
+    {
+      "lat": 44.826259,
+      "lon": 11.622017
+    },
+    {
+      "lat": 44.826135,
+      "lon": 11.622258
+    },
+    {
+      "lat": 44.825864,
+      "lon": 11.62358
+    },
+    {
+      "lat": 44.825728,
+      "lon": 11.623924
+    },
+    {
+      "lat": 44.825578,
+      "lon": 11.624167
+    },
+    {
+      "lat": 44.825247,
+      "lon": 11.624547
+    },
+    {
+      "lat": 44.82479,
+      "lon": 11.625155
+    },
+    {
+      "lat": 44.824748,
+      "lon": 11.625758
+    },
+    {
+      "lat": 44.82477,
+      "lon": 11.62681
+    },
+    {
+      "lat": 44.824819,
+      "lon": 11.627162
+    },
+    {
+      "lat": 44.824822,
+      "lon": 11.627519
+    },
+    {
+      "lat": 44.824749,
+      "lon": 11.627795
+    },
+    {
+      "lat": 44.824706,
+      "lon": 11.628434
+    },
+    {
+      "lat": 44.824488,
+      "lon": 11.628771
+    },
+    {
+      "lat": 44.824322,
+      "lon": 11.629339
+    },
+    {
+      "lat": 44.824323,
+      "lon": 11.629437
+    },
+    {
+      "lat": 44.824373,
+      "lon": 11.62972
+    },
+    {
+      "lat": 44.824492,
+      "lon": 11.629984
+    },
+    {
+      "lat": 44.824875,
+      "lon": 11.630376
+    },
+    {
+      "lat": 44.825015,
+      "lon": 11.630408
+    },
+    {
+      "lat": 44.825242,
+      "lon": 11.630573
+    },
+    {
+      "lat": 44.825347,
+      "lon": 11.630761
+    },
+    {
+      "lat": 44.825451,
+      "lon": 11.631138
+    },
+    {
+      "lat": 44.825515,
+      "lon": 11.631629
+    },
+    {
+      "lat": 44.825503,
+      "lon": 11.631773
+    },
+    {
+      "lat": 44.825373,
+      "lon": 11.632163
+    },
+    {
+      "lat": 44.825367,
+      "lon": 11.63236
+    },
+    {
+      "lat": 44.825277,
+      "lon": 11.632563
+    },
+    {
+      "lat": 44.825253,
+      "lon": 11.632781
+    },
+    {
+      "lat": 44.825269,
+      "lon": 11.63311
+    },
+    {
+      "lat": 44.825371,
+      "lon": 11.633801
+    },
+    {
+      "lat": 44.825462,
+      "lon": 11.633867
+    },
+    {
+      "lat": 44.82573,
+      "lon": 11.633873
+    },
+    {
+      "lat": 44.825965,
+      "lon": 11.633974
+    },
+    {
+      "lat": 44.826249,
+      "lon": 11.633955
+    },
+    {
+      "lat": 44.826395,
+      "lon": 11.633863
+    },
+    {
+      "lat": 44.826565,
+      "lon": 11.63345
+    },
+    {
+      "lat": 44.826812,
+      "lon": 11.633304
+    },
+    {
+      "lat": 44.829008,
+      "lon": 11.632578
+    },
+    {
+      "lat": 44.829109,
+      "lon": 11.632615
+    },
+    {
+      "lat": 44.829194,
+      "lon": 11.632719
+    },
+    {
+      "lat": 44.829332,
+      "lon": 11.633156
+    },
+    {
+      "lat": 44.829571,
+      "lon": 11.633413
+    },
+    {
+      "lat": 44.829709,
+      "lon": 11.633372
+    },
+    {
+      "lat": 44.830384,
+      "lon": 11.6329
+    },
+    {
+      "lat": 44.83047,
+      "lon": 11.63291
+    },
+    {
+      "lat": 44.830765,
+      "lon": 11.633065
+    },
+    {
+      "lat": 44.831248,
+      "lon": 11.633434
+    },
+    {
+      "lat": 44.831263,
+      "lon": 11.633758
+    },
+    {
+      "lat": 44.831218,
+      "lon": 11.634068
+    },
+    {
+      "lat": 44.831262,
+      "lon": 11.634181
+    },
+    {
+      "lat": 44.831335,
+      "lon": 11.634259
+    },
+    {
+      "lat": 44.831411,
+      "lon": 11.634249
+    },
+    {
+      "lat": 44.831585,
+      "lon": 11.634052
+    },
+    {
+      "lat": 44.831898,
+      "lon": 11.634122
+    },
+    {
+      "lat": 44.833433,
+      "lon": 11.634848
+    },
+    {
+      "lat": 44.833589,
+      "lon": 11.634974
+    },
+    {
+      "lat": 44.834083,
+      "lon": 11.635219
+    },
+    {
+      "lat": 44.834399,
+      "lon": 11.63528
+    },
+    {
+      "lat": 44.834818,
+      "lon": 11.635291
+    },
+    {
+      "lat": 44.836599,
+      "lon": 11.635173
+    },
+    {
+      "lat": 44.837294,
+      "lon": 11.635095
+    },
+    {
+      "lat": 44.837548,
+      "lon": 11.635223
+    },
+    {
+      "lat": 44.837786,
+      "lon": 11.635101
+    },
+    {
+      "lat": 44.838876,
+      "lon": 11.63501
+    },
+    {
+      "lat": 44.839057,
+      "lon": 11.634881
+    },
+    {
+      "lat": 44.839284,
+      "lon": 11.634882
+    },
+    {
+      "lat": 44.839925,
+      "lon": 11.634808
+    },
+    {
+      "lat": 44.840055,
+      "lon": 11.634827
+    },
+    {
+      "lat": 44.840341,
+      "lon": 11.634747
+    },
+    {
+      "lat": 44.840598,
+      "lon": 11.63477
+    },
+    {
+      "lat": 44.840763,
+      "lon": 11.634638
+    },
+    {
+      "lat": 44.840877,
+      "lon": 11.634306
+    },
+    {
+      "lat": 44.840935,
+      "lon": 11.634245
+    },
+    {
+      "lat": 44.841053,
+      "lon": 11.6342
+    },
+    {
+      "lat": 44.84258,
+      "lon": 11.633731
+    },
+    {
+      "lat": 44.843522,
+      "lon": 11.633527
+    },
+    {
+      "lat": 44.845052,
+      "lon": 11.633093
+    },
+    {
+      "lat": 44.847236,
+      "lon": 11.632431
+    },
+    {
+      "lat": 44.84751,
+      "lon": 11.632378
+    },
+    {
+      "lat": 44.847989,
+      "lon": 11.632228
+    },
+    {
+      "lat": 44.848402,
+      "lon": 11.632153
+    },
+    {
+      "lat": 44.848587,
+      "lon": 11.63188
+    },
+    {
+      "lat": 44.848708,
+      "lon": 11.631228
+    },
+    {
+      "lat": 44.848729,
+      "lon": 11.630464
+    },
+    {
+      "lat": 44.848843,
+      "lon": 11.629401
+    },
+    {
+      "lat": 44.848906,
+      "lon": 11.628201
+    },
+    {
+      "lat": 44.84905,
+      "lon": 11.626813
+    },
+    {
+      "lat": 44.849167,
+      "lon": 11.624868
+    },
+    {
+      "lat": 44.849271,
+      "lon": 11.624204
+    },
+    {
+      "lat": 44.849391,
+      "lon": 11.62247
+    },
+    {
+      "lat": 44.84943,
+      "lon": 11.622247
+    },
+    {
+      "lat": 44.849555,
+      "lon": 11.619995
+    },
+    {
+      "lat": 44.849803,
+      "lon": 11.616684
+    },
+    {
+      "lat": 44.849755,
+      "lon": 11.616433
+    },
+    {
+      "lat": 44.849508,
+      "lon": 11.616009
+    },
+    {
+      "lat": 44.849223,
+      "lon": 11.61558
+    },
+    {
+      "lat": 44.848648,
+      "lon": 11.614855
+    },
+    {
+      "lat": 44.847894,
+      "lon": 11.613938
+    },
+    {
+      "lat": 44.847736,
+      "lon": 11.613791
+    },
+    {
+      "lat": 44.846883,
+      "lon": 11.612803
+    },
+    {
+      "lat": 44.84655,
+      "lon": 11.612308
+    },
+    {
+      "lat": 44.846039,
+      "lon": 11.611727
+    },
+    {
+      "lat": 44.845823,
+      "lon": 11.611415
+    },
+    {
+      "lat": 44.845486,
+      "lon": 11.611017
+    },
+    {
+      "lat": 44.845353,
+      "lon": 11.610799
+    },
+    {
+      "lat": 44.844605,
+      "lon": 11.60992
+    },
+    {
+      "lat": 44.84429,
+      "lon": 11.609714
+    },
+    {
+      "lat": 44.843998,
+      "lon": 11.609722
+    },
+    {
+      "lat": 44.843944,
+      "lon": 11.6097
+    },
+    {
+      "lat": 44.843855,
+      "lon": 11.609572
+    },
+    {
+      "lat": 44.843672,
+      "lon": 11.609562
+    },
+    {
+      "lat": 44.843496,
+      "lon": 11.609497
+    },
+    {
+      "lat": 44.843354,
+      "lon": 11.609516
+    },
+    {
+      "lat": 44.843189,
+      "lon": 11.609372
+    },
+    {
+      "lat": 44.84317,
+      "lon": 11.609318
+    },
+    {
+      "lat": 44.843196,
+      "lon": 11.609179
+    },
+    {
+      "lat": 44.843151,
+      "lon": 11.608966
+    },
+    {
+      "lat": 44.843179,
+      "lon": 11.608718
+    },
+    {
+      "lat": 44.843102,
+      "lon": 11.608505
+    },
+    {
+      "lat": 44.843083,
+      "lon": 11.608352
+    },
+    {
+      "lat": 44.843117,
+      "lon": 11.608151
+    },
+    {
+      "lat": 44.843088,
+      "lon": 11.608038
+    },
+    {
+      "lat": 44.84283,
+      "lon": 11.607532
+    },
+    {
+      "lat": 44.842632,
+      "lon": 11.607249
+    },
+    {
+      "lat": 44.84252,
+      "lon": 11.607205
+    },
+    {
+      "lat": 44.842416,
+      "lon": 11.607076
+    },
+    {
+      "lat": 44.842339,
+      "lon": 11.607031
+    },
+    {
+      "lat": 44.842279,
+      "lon": 11.606894
+    },
+    {
+      "lat": 44.842206,
+      "lon": 11.60683
+    },
+    {
+      "lat": 44.842179,
+      "lon": 11.606697
+    },
+    {
+      "lat": 44.842051,
+      "lon": 11.60643
+    },
+    {
+      "lat": 44.841724,
+      "lon": 11.606323
+    },
+    {
+      "lat": 44.841668,
+      "lon": 11.606247
+    },
+    {
+      "lat": 44.841582,
+      "lon": 11.606207
+    },
+    {
+      "lat": 44.841533,
+      "lon": 11.606105
+    },
+    {
+      "lat": 44.841293,
+      "lon": 11.605915
+    },
+    {
+      "lat": 44.84111,
+      "lon": 11.605621
+    },
+    {
+      "lat": 44.840942,
+      "lon": 11.605459
+    },
+    {
+      "lat": 44.840818,
+      "lon": 11.605402
+    },
+    {
+      "lat": 44.840574,
+      "lon": 11.605167
+    },
+    {
+      "lat": 44.840123,
+      "lon": 11.604665
+    },
+    {
+      "lat": 44.840065,
+      "lon": 11.604582
+    },
+    {
+      "lat": 44.840041,
+      "lon": 11.604341
+    },
+    {
+      "lat": 44.839753,
+      "lon": 11.603611
+    },
+    {
+      "lat": 44.839612,
+      "lon": 11.603112
+    },
+    {
+      "lat": 44.839486,
+      "lon": 11.602966
+    },
+    {
+      "lat": 44.839285,
+      "lon": 11.602969
+    },
+    {
+      "lat": 44.839113,
+      "lon": 11.603068
+    },
+    {
+      "lat": 44.839057,
+      "lon": 11.60318
+    },
+    {
+      "lat": 44.839058,
+      "lon": 11.603369
+    },
+    {
+      "lat": 44.838879,
+      "lon": 11.603586
+    },
+    {
+      "lat": 44.838704,
+      "lon": 11.603755
+    },
+    {
+      "lat": 44.838015,
+      "lon": 11.604211
+    },
+    {
+      "lat": 44.837779,
+      "lon": 11.604158
+    },
+    {
+      "lat": 44.837661,
+      "lon": 11.604058
+    },
+    {
+      "lat": 44.83682,
+      "lon": 11.604051
+    },
+    {
+      "lat": 44.836586,
+      "lon": 11.604505
+    },
+    {
+      "lat": 44.836431,
+      "lon": 11.604903
+    },
+    {
+      "lat": 44.836349,
+      "lon": 11.605016
+    },
+    {
+      "lat": 44.836264,
+      "lon": 11.605254
+    },
+    {
+      "lat": 44.836,
+      "lon": 11.605725
+    },
+    {
+      "lat": 44.835902,
+      "lon": 11.606024
+    },
+    {
+      "lat": 44.835913,
+      "lon": 11.606181
+    },
+    {
+      "lat": 44.835576,
+      "lon": 11.606918
+    },
+    {
+      "lat": 44.835441,
+      "lon": 11.60712
+    },
+    {
+      "lat": 44.835407,
+      "lon": 11.607238
+    },
+    {
+      "lat": 44.835042,
+      "lon": 11.607295
+    },
+    {
+      "lat": 44.834818,
+      "lon": 11.607401
+    },
+    {
+      "lat": 44.834577,
+      "lon": 11.607366
+    },
+    {
+      "lat": 44.834416,
+      "lon": 11.607435
+    },
+    {
+      "lat": 44.834237,
+      "lon": 11.60755
+    },
+    {
+      "lat": 44.833927,
+      "lon": 11.607869
+    },
+    {
+      "lat": 44.833728,
+      "lon": 11.608181
+    },
+    {
+      "lat": 44.833511,
+      "lon": 11.608704
+    },
+    {
+      "lat": 44.833233,
+      "lon": 11.60923
+    },
+    {
+      "lat": 44.833172,
+      "lon": 11.609465
+    },
+    {
+      "lat": 44.833187,
+      "lon": 11.60959
+    },
+    {
+      "lat": 44.833489,
+      "lon": 11.610053
+    },
+    {
+      "lat": 44.833878,
+      "lon": 11.610358
+    },
+    {
+      "lat": 44.834085,
+      "lon": 11.610787
+    },
+    {
+      "lat": 44.834255,
+      "lon": 11.611014
+    },
+    {
+      "lat": 44.834818,
+      "lon": 11.61139
+    },
+    {
+      "lat": 44.83491,
+      "lon": 11.61147
+    }
+  ],
+  "start_point": {
+    "lat": 44.83491,
+    "lon": 11.61147,
+    "label": "Partenza / Arrivo — Parcheggio Ex MOF"
+  },
+  "version": "0.0.1",
+  "version_date": "2026-06-26",
+  "author": "Stefano Franzoni"
+}

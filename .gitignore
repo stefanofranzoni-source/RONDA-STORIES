@@ -1,0 +1,46 @@
+# ─── Flutter / Dart ───────────────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+pubspec.lock
+
+# ─── Android ──────────────────────────────────────────────────────────────────
+src/android/.gradle/
+src/android/local.properties
+src/android/key.properties
+src/android/app/google-services.json
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
+
+# ─── Windows ──────────────────────────────────────────────────────────────────
+src/windows/flutter/generated_plugin_registrant.cc
+src/windows/flutter/generated_plugin_registrant.h
+src/windows/flutter/generated_plugins.cmake
+
+# ─── iOS / macOS ──────────────────────────────────────────────────────────────
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/.symlinks/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/settings.json
+*.iml
+
+# ─── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Chiavi e segreti (mai nel repository) ────────────────────────────────────
+*.jks
+*.keystore
+*.p12
+*.pem
+google-services.json
+GoogleService-Info.plist

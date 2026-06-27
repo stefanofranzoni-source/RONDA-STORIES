@@ -1,0 +1,20 @@
+# File generati da Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+
+# IDE
+.vscode/
+.idea/
+
+# Piattaforme (le genereremo più avanti con `flutter create .`)
+android/
+ios/
+web/
+linux/
+macos/
+windows/
