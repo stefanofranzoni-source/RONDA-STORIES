@@ -1,0 +1,1351 @@
+{
+  "circuit_id": "ferrara-classico",
+  "name": "Ferraronda",
+  "icon": "icon.png",
+  "subtitle": {
+    "it": "4 passi tra le mura estensi",
+    "en": "4 steps through the Estense walls",
+    "zh": "漫步埃斯特城墙四步之旅"
+  },
+  "languages": [
+    "it",
+    "en",
+    "zh"
+  ],
+  "default_language": "it",
+  "theme_color": "#B7472A",
+  "poi_retrigger": true,
+  "poi_panel_behavior": "auto",
+  "poi_auto_close_delay_s": 4,
+  "poi": [
+    {
+      "id": "partenza",
+      "lat": 44.83491,
+      "lon": 11.61147,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Le Mura di Ferrara",
+          "text": "Mettiamoci in cammino. Quello che state per intraprendere non è un semplice percorso, né una banale passeggiata: è un viaggio che attraversa cinque secoli di ambizioni, strategie e vita quotidiana. Siete appena saliti su una macchina del tempo lunga oltre nove chilometri: le Mura Estensi di Ferrara, una delle cinte murarie più integre e affascinanti di tutta Europa.\n\nSe vi fermate un istante a guardare l'orizzonte, noterete come la città si separi dal resto della pianura. Questo confine, così verde e rigoglioso oggi, è stato per secoli il teatro della sopravvivenza di una dinastia, quella degli Este, che ha voluto trasformare Ferrara nella prima città moderna d'Europa. Pensate che, tra il 1451 e il 1520, qui non c'erano solo mattoni, ma un fermento di ingegni guidati da menti come quella del grande architetto Biagio Rossetti. Il Duca Ercole primo non voleva solo proteggersi dai nemici: voleva creare un capolavoro di armonia, dove la forza della pietra si fondesse con la vita della natura.\n\nOggi, camminando lungo questo terrapieno, stiamo letteralmente poggiando i piedi sopra una corazza invisibile. Sotto i sentieri che calpestiamo, si celano casematte, gallerie sotterranee, bocche da fuoco e strategie che hanno tenuto testa a eserciti imponenti. Eppure, accade qualcosa di magico: la funzione di queste mura è mutata drasticamente. Dove un tempo si scrutava l'orizzonte in cerca di una minaccia, oggi si cercano i colori del tramonto. Dove un tempo c'era la paura dell'assedio, oggi risuona il rumore dei passi, delle biciclette, dei giochi dei bambini.\n\nSiamo fortunati: il riconoscimento UNESCO del 1999 non ha solo certificato l'importanza storica di questo luogo, ha protetto un organismo vivo. Le Mura non sono un reperto da museo; sono il polmone che permette a Ferrara di respirare ancora oggi, un abbraccio che unisce la storia gloriosa del Rinascimento ferrarese alla modernità del nostro tempo.\n\nOgni baluardo, ogni porta e ogni torrione che incontreremo è una pagina di un libro aperto. Non abbiate fretta: ascoltate il silenzio di questi mattoni, osservate come la vegetazione si è riappropriata delle feritoie e cercate di immaginare, tra queste ombre, le sentinelle che un tempo vigilavano. Lasciamo che sia la storia stessa a camminare al nostro fianco.\n\nLa Ferraronda ha inizio: siete pronti a scoprire cosa si nasconde sotto le radici di questo confine straordinario?",
+          "alt_text": "Sei tornato al punto di partenza. La Ferraronda è completata: oltre 9 chilometri lungo le mura estensi, tra bastioni, porte monumentali e leggende che corrono tra i mattoni. Abbiamo camminato attraverso il potere dei Duchi, le ferite delle guerre e la bellezza di una città che ha saputo rinascere ogni volta. Grazie per aver scelto di esplorare questo confine straordinario: le mura ora hanno un pezzetto di storia in più, quella che abbiamo scritto insieme, passo dopo passo, lungo il percorso. Buona continuazione nella nostra Ferrara."
+        },
+        "en": {
+          "title": "The Walls of Ferrara",
+          "text": "What you are about to walk is not just a sporting or scenic route: it is a journey through five centuries of history, power, military engineering and everyday life. The Este walls of Ferrara are among the most intact in Europe: over 9 kilometres of almost unaltered city walls, built between 1451 and 1520 and declared a UNESCO World Heritage Site in 1999. Every bastion, every gate, every tower tells a different story. Enjoy your Ronda.",
+          "alt_text": "You have returned to the starting point. You have completed the Ferraronda: over 9 kilometres along the Este walls of Ferrara, among sixteenth-century bastions, monumental gateways, towers and legends. A route that tells centuries of history in every stone. Thank you for walking with us."
+        },
+        "zh": {
+          "title": "费拉拉城墙",
+          "text": "你即将踏上的不仅是一条运动或风景路线，而是一段穿越五个世纪历史、权力、军事工程与日常生活的旅程。费拉拉的埃斯特城墙是欧洲保存最完好的城墙之一：超过9公里几乎完好无损，建于1451年至1520年间，1999年与历史中心一同被列为联合国教科文组织世界遗产。每一座棱堡、每一扇城门、每一座塔楼都诉说着不同的故事。祝您漫步愉快。",
+          "alt_text": "您已回到出发点，完成了费拉伦达之旅：沿费拉拉埃斯特城墙超过9公里，途经十六世纪的棱堡、宏伟的城门、塔楼和传说。这条路线在每一块石头中诉说着数百年的历史。感谢您与我们同行。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_san_paolo",
+      "lat": 44.83252,
+      "lon": 11.61586,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo di San Paolo",
+          "text": "Incontriamo il Baluardo di San Paolo, un luogo segnato da grandi cambiamenti. Qui, la storia ha subito una ferita profonda: tra l'espansione del Rione Giardino e l'industria del Novecento, abbiamo perso quasi mezzo chilometro di mura. È un vuoto che ci ricorda quanto la città cambi, talvolta a costo della propria memoria. Ma proprio per questo, ogni metro che percorriamo è un pezzo di storia che abbiamo il dovere di proteggere."
+        },
+        "en": {
+          "title": "Bastion of San Paolo",
+          "text": "Only the foundations of the Bastion of San Paolo were laid in 1585, under the supervision of the Ferrarese architect Giovanni Battista Aleotti. A long curtain wall joined the pontifical citadel to the defensive structures of the Porta di San Paolo, built in the seventeenth century to replace the earlier medieval defences. In the 1930s, an industrial plan led to the demolition of a long segment of the southern walls. In the 1950s, the expansion of the Rione Giardino district toward the Burana canal erased all visible trace of the walls for around 450 metres — the largest breach in the entire city boundary."
+        },
+        "zh": {
+          "title": "圣保罗棱堡",
+          "text": "圣保罗棱堡于1585年奠基，但未完全建成，由费拉拉建筑师乔瓦尼·巴蒂斯塔·阿莱奥蒂监督建造。一道长长的幕墙将教皇城堡与圣保罗门防御工事相连，这些工事建于十七世纪，取代了早期的中世纪防御设施。二十世纪三十年代，一项工业发展计划导致南段城墙大部分被拆除，为新水塔和广场基础设施让路。五十年代，花园区向布拉纳运河扩张，使约450米的城墙踪迹荡然无存，是整段城墙中断裂最严重之处。"
+        }
+      }
+    },
+    {
+      "id": "porta_paola",
+      "lat": 44.83233,
+      "lon": 11.61644,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Porta Paola",
+          "text": "Ecco Porta Paola, il varco più prestigioso della Ferrara papale. Costruita nel 1612 in onore di Paolo V, la sua facciata marmorea ci accoglie con un'eleganza che oggi quasi stupisce. Immaginate, mentre passiamo, che proprio davanti a noi un tempo c'era un rivellino a forma di freccia: non era solo un elemento architettonico, ma un filtro severo che bloccava spie, sabotatori e merci non autorizzate. Dopo i restauri post-sisma del 2012, la porta è tornata a essere il fulcro della documentazione storica su queste mura: un ponte solido tra il potere del Seicento e la città che vive e pulsa attorno a noi."
+        },
+        "en": {
+          "title": "Porta Paola",
+          "text": "Formerly known as Porta San Polo, the current structure was built in 1612 by architect Giovanni Battista Aleotti in honour of Pope Paolo V Borghese, from whom it takes its name. It is the most prestigious monumental gateway in the city. It was further protected by an arrow-shaped ravelin demolished in the nineteenth century. A curiosity: the ravelin in front served for strict checks on those wishing to enter the city — not only goods, but also spies and saboteurs were stopped here. Restored between 2001 and 2004 and reinforced after the 2012 earthquake, it now houses the Documentation Centre on the Walls of Ferrara."
+        },
+        "zh": {
+          "title": "保罗门",
+          "text": "现存建筑前身为圣波洛门，1612年由建筑师阿莱奥蒂设计建造，为纪念教皇保罗五世而命名。这是城市中最具声望的纪念性城门。前方曾设有一座箭形棱堡，已于十九世纪拆除。有趣的是，这座棱堡曾用于严格检查进城人员——间谍和破坏分子也在此被拦截。现为费拉拉城墙文献中心所在地。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_san_lorenzo",
+      "lat": 44.8317,
+      "lon": 11.61775,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo di San Lorenzo",
+          "text": "Il terreno si allarga sotto i nostri piedi: siamo al Baluardo di San Lorenzo. Pensate che dove oggi parcheggiamo o curiosiamo tra le bancarelle del lunedì, fino a un secolo fa c'era il frenetico mercato dei cavalli.\n\nA differenza di altri, questo bastione non cerca l'eleganza: qui la parola d'ordine era efficacia pura. Niente angoli arrotondati, ma linee spigolose pensate per proteggere Porta Paola, che svetta nelle vicinanze. È un monumento che si è sempre reinventato: nato come fortilizio estense, poi caposaldo papale, ha vissuto una seconda vita nelle sue viscere.\n\nSotto questo sentiero corrono le famose gallerie, i camattoni. Luoghi silenziosi che hanno salvato la vita a tantissimi ferraresi durante i bombardamenti dell'ultima guerra, trasformandosi da postazioni di difesa a rifugi estremi. Se oggi le mura ci appaiono così solide, è merito dei recenti restauri che hanno messo in sicurezza questa massa di terra che, per secoli, ha premuto con forza sui muri. È un pezzo di storia che continua a proteggere la nostra memoria."
+        },
+        "en": {
+          "title": "Bastion of San Lorenzo",
+          "text": "The Bastion of San Lorenzo stands on the site of the earlier Bastione di Castelnuovo, dismantled between 1562 and 1572. Built in 1583 and reworked in the papal period, together with the adjacent Bastion of San Paolo it forms the defensive system protecting Porta Paola. A curious detail: at the beginning of the twentieth century its summit was used as a weekly horse market — transforming a military bastion into a lively city marketplace."
+        },
+        "zh": {
+          "title": "圣洛伦佐棱堡",
+          "text": "圣洛伦佐棱堡建于早期新堡棱堡原址之上，后者于1562至1572年间被拆除。1583年建成，教皇时期重建，与相邻的圣保罗棱堡共同构成保护保罗门的防御体系。有趣的是，二十世纪初，棱堡顶部曾作为每周马匹集市使用——将军事设施变成了热闹的城市市场。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_porta_san_pietro",
+      "lat": 44.82792,
+      "lon": 11.62137,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo e Porta di San Pietro",
+          "text": "Proseguiamo il cammino verso il Baluardo di San Pietro, la prima delle moderne fortificazioni volute da Alfonso II d'Este. È un luogo curioso, segnato da una sorta di dispetto storico: nel 1630, l'arco marmoreo della porta, che portava la firma dell'architetto Aleotti, fu letteralmente smontato e traslocato dai Papi all'ingresso della loro fortezza. Era un modo plateale per cancellare la firma degli Estensi dall'ingresso della città che avevano governato per secoli. La porta originale rimase murata per anni, come un segreto dimenticato. Solo i restauri di vent'anni fa hanno riportato alla luce l'arco, restituendoci oggi quel pezzo di storia che qualcuno aveva cercato di far sparire per sempre."
+        },
+        "en": {
+          "title": "Bastion and Gate of San Pietro",
+          "text": "The Bastion of San Pietro is the first of the modern fortifications built by Alfonso II d'Este between 1578 and 1585. In 1583, a new marble arch was built over the gate, designed by Giovan Battista Aleotti. Incredibly, in 1630 this structure was dismantled and reinstalled at the entrance to the papal fortress, and the gate was definitively walled up — as if erasing the Este signature from the entrance to their own city. Restoration works in 2001-2002 revealed the arch of the ancient gate from the interior embankments."
+        },
+        "zh": {
+          "title": "圣彼得棱堡与城门",
+          "text": "圣彼得棱堡是阿方索二世于1578年至1585年间修建的现代防御工事之首。1583年，建筑师阿莱奥蒂设计的大理石拱门在城门上建成。1630年被拆除并重新安装在教皇要塞的入口，城门从此被永久封堵——仿佛将埃斯特家族的印记从他们自己城市的入口抹去。2001至2002年的修复工程重新揭露了古城门的拱门。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_sant_antonio",
+      "lat": 44.82629,
+      "lon": 11.62198,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo di Sant'Antonio",
+          "text": "Passiamo ora accanto al Baluardo di Sant'Antonio, che prende il nome dal vicino monastero benedettino che si intravede poco lontano; un luogo di silenzio e clausura che per secoli è stato protetto proprio dalle acque che cingevano queste mura. Siamo nel cuore del sistema difensivo voluto da Alfonso II alla fine del Cinquecento. Immaginate che l'area che si apre qui davanti non sia sempre stata questa terra ferma: un tempo, tutto questo era un vallo allagato, un immenso fossato che rendeva l'avvicinamento al bastione un'impresa impossibile. Se osservate bene la muratura mentre passiamo, noterete ancora i segni di ingressi oggi murati: sono le cicatrici delle casematte che corrono sotto i nostri piedi. Tra il 1943 e il 1945 questi sotterranei divennero una vera città invisibile, offrendo rifugio a centinaia di sfollati. È affascinante pensare che strutture nate per la guerra si siano trasformate nel riparo più prezioso per la vita di chi aveva perso tutto."
+        },
+        "en": {
+          "title": "Bastion of Sant'Antonio",
+          "text": "The Bastion of Sant'Antonio is part of the powerful southern defensive system commissioned by Alfonso II d'Este. It stands near the ancient Benedictine monastery of Sant'Antonio in Polesine, founded in 1257 and still existing, home to extraordinary frescoes of the biblical cycle. A small group of cloistered nuns still prays today within the same walls alongside which the Este dukes built cannons and bastions. Two parallel worlds — prayer and war — separated by a few metres of stone for over three centuries."
+        },
+        "zh": {
+          "title": "圣安东尼奥棱堡",
+          "text": "圣安东尼奥棱堡是阿方索二世主导建造的强大南部防御体系的组成部分。它建于古老的圣安东尼奥·因·波莱西内本笃会修道院旁，该修道院创建于1257年，至今仍存，保存着精美的圣经周期壁画。一小群隐居修女数百年来在同一堵墙内祈祷，而埃斯特公爵们就在这堵墙旁建造大炮和棱堡。祈祷与战争两个平行世界，数百年来仅隔几米之遥。"
+        }
+      }
+    },
+    {
+      "id": "mura_borso",
+      "lat": 44.82584,
+      "lon": 11.62389,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Le Mura Nuove di Borso d'Este",
+          "text": "Proseguiamo lungo il tracciato delle cosiddette Mura Nuove. Siamo sulle tracce della visione di Borso d'Este, il primo Duca di Ferrara, che a metà del Quattrocento capì prima di altri che la città stava mutando. Immaginate il paesaggio di allora: il Grande Fiume, il Po, stava cambiando corso, ritirandosi e lasciando dietro di sé nuove, fertili terre. Ferrara non era più confinata nel suo vecchio perimetro medievale; stava diventando un organismo vivo, in espansione, e Borso non perse tempo. Fece innalzare queste cortine rettilinee, una sfida ingegneristica per blindare la città che cresceva.\n\nGuardate ora, proprio sotto di noi, la base di questa muraglia: notate quella forma inclinata? È ciò che gli esperti chiamano scarpa. In un'epoca in cui l'artiglieria a palla stava cambiando le regole del gioco, i mastri muratori estensi avevano già compreso una verità fondamentale: per resistere all'impatto dei cannoni non serviva solo l'altezza, serviva solidità, serviva una base capace di assorbire l'urto invece di sbriciolarsi.\n\nMa c'è un dettaglio che spesso dimentichiamo. Oggi vediamo il colore caldo e crudo dei mattoni a vista, ma nel Quattrocento l'impatto visivo era radicalmente diverso. Queste cortine erano allora una dichiarazione di potere: le merlature erano decorate con colori vivaci, disegni geometrici e stemmi araldici. Immaginate un viaggiatore che, arrivando da lontano tra la nebbia della pianura, si trovasse davanti queste mura imponenti e colorate. Non avrebbe visto solo una fortezza austera, ma la soglia di una capitale rinascimentale che voleva stupire il mondo intero."
+        },
+        "en": {
+          "title": "The New Walls of Borso d'Este",
+          "text": "The gradual drying up of the branch of the Po that lapped the southern front of Ferrara caused, between the end of the fourteenth century and the first half of the fifteenth, the merging of the ancient river island of Sant'Antonio in Polesine with the urban fabric. It was Borso d'Este (1413-1471), first Duke of Ferrara, who commissioned new walls to protect the entire southern area, entrusting the work in 1442 to the architect Pietrobono Brasavola. In 1451, the gates of San Pietro, dell'Amore and San Giorgio were opened along the New Walls, later walled up and modified over the centuries. Once adorned with painted battlements, Borso's straight red curtain walls still preserve the battered base and sections of the brick stringcourse, while traces of the tall quadrangular towers, demolished in the second half of the 1500s, can still be found."
+        },
+        "zh": {
+          "title": "博尔索·德·埃斯特新城墙",
+          "text": "这段城墙可追溯至十五世纪，由费拉拉第一位公爵博尔索·德·埃斯特主导建造，作为城市南部防御环线的扩建工程。博尔索城墙以砖砌工艺色泽鲜明和烧制石料编织线脚为特色，是该时期埃斯特军事建筑的典型元素。博尔索以这些新城墙开启了城市防御体系的现代化进程，为其兄弟埃尔科莱一世后来主导的海格力斯扩建奠定了基础，该扩建工程使城市面积翻倍。"
+        }
+      }
+    },
+    {
+      "id": "porta_romana",
+      "lat": 44.82467,
+      "lon": 11.6287,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Porta Romana o di San Giorgio",
+          "text": "Siamo giunti a Porta Romana, nota anche come Porta di San Giorgio. Per secoli, questo è stato il vero biglietto da visita di Ferrara per chiunque arrivasse: un punto di accesso solenne, che segnava il confine tra la campagna aperta e la magnificenza della capitale estense.\n\nLa storia di questo varco è un mosaico di trasformazioni che raccontano il progresso della città. Immaginate com'era un tempo: c'era un antico ponte di legno, poi sostituito da quello in ferro di fine Ottocento, fino alla moderna struttura in cemento armato che vediamo oggi, sorta nel 1950 come un atto di resilienza per riparare le gravi ferite lasciate dai bombardamenti.\n\nAlzate lo sguardo verso l'alto: le statue di San Giorgio, Maurelio, Rocco e Filippo Neri vegliano su questo frenetico crocevia da quasi tre secoli. Sono testimoni silenziosi del passaggio della storia. È il segno profondo di una Ferrara che, pur dovendo adattare i suoi varchi alle esigenze delle merci e al ritmo delle auto moderne, non ha mai voluto rinunciare alla protezione spirituale dei suoi santi patroni."
+        },
+        "en": {
+          "title": "Porta Romana or San Giorgio Gate",
+          "text": "The current ruins are all that remains of the complex that until the end of the sixteenth century guarded the main southern entrance to the city, in front of the church of San Giorgio, Ferrara's first cathedral. The bridge, originally made of wood, was rebuilt in brick in 1682 and in iron between 1891 and 1894; partially destroyed in the bombings of 1944, it was rebuilt in 1950 with statues of the patron saints Giorgio, Maurelio, Rocco and Filippo Neri, created in 1786 by the Veronese sculptor Gaetano Cignaroli. The gate was transformed into a monumental arch in the 1680s and embellished in 1847."
+        },
+        "zh": {
+          "title": "罗马门或圣乔治门",
+          "text": "现存遗址是十六世纪末前守护城市主要南部入口的建筑群的全部遗存，位于圣乔治教堂对面。木制桥梁1682年重建为砖桥，1891至1894年改为铁桥；1944年轰炸中遭严重破坏，1950年以钢筋混凝土重建，桥上安放着城市守护圣人雕像，由维罗纳雕塑家盖塔诺·奇尼亚罗利于1786年创作。为保卫城门，两位公爵于1557至1563年间新建了一座棱堡，后于1952至1958年间部分拆除。"
+        }
+      }
+    },
+    {
+      "id": "barbacane_san_giorgio",
+      "lat": 44.82531,
+      "lon": 11.63042,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Barbacane o Baluardo di San Giorgio",
+          "text": "Ci troviamo in prossimità del Barbacane, un vero veterano delle nostre mura. Il suo nome ha un'origine antica e quasi esotica, legata all'architettura militare medievale: indicava infatti un contrafforte difensivo, un'opera avanzata che proteggeva il corso del Po di Volano già a partire dal Trecento, quando Ferrara era una città che temeva le incursioni dal fiume.\n\nFu il duca Alfonso primo d'Este a trasformare questa struttura in un baluardo moderno, riadattandolo per accogliere i nuovi cannoni. Ma c'è un dettaglio, piccolo e prezioso, che non dovete assolutamente perdere: alzate lo sguardo verso la sommità della muratura. Vedete quella piccola guardiola cilindrica che svetta solitaria? È una rarità assoluta. Rappresenta l'unica sopravvissuta di decine di simili garitte che un tempo punteggiavano, come vedette instancabili, tutto il perimetro della nostra città.\n\nÈ un piccolo occhio di pietra, un testimone silenzioso che, nonostante l'incuria dei secoli e il passare delle stagioni, continua ostinatamente a sorvegliare il nostro cammino. È l'ultimo superstite di un sistema di sorveglianza che, secoli fa, non dormiva mai."
+        },
+        "en": {
+          "title": "Barbican or Bastion of San Giorgio",
+          "text": "Since the end of the fourteenth century, historical records mention a fortified structure that guarded the Po di Volano near the village of San Giorgio: the Barbican. The term barbican derives from the medieval Latin barbacanis or from the Arabic bar-al-bagara, meaning livestock enclosure, indicating a defensive buttress. Between 1521 and 1525, Alfonso primo d'Este transformed it into a bastion with embrasures; rebuilt in 1557 by Ercole II, it was partially destroyed in 1893 to create a toll barrier. The cylindrical watchtower above is the sole surviving example of the dozens of sentry boxes built along the city's entire fortified circuit in the seventeenth and eighteenth centuries — a rarity that survived time and human neglect."
+        },
+        "zh": {
+          "title": "圣乔治外堡或棱堡",
+          "text": "自十四世纪末，史料中便有记载一座守护圣乔治村附近沃拉诺河支流的防御工事：外堡。外堡一词源自中世纪拉丁语或阿拉伯语bar-al-bagara，意为牲畜围栏，泛指防御性扶壁。1521至1525年间，阿方索一世将其改建为配备炮眼的棱堡，1557年埃尔科莱二世又对其进行重建。1893年因建税关屏障遭部分拆除，1952至1958年间再次被破坏以拓宽道路。顶部圆柱形哨楼是十七至十八世纪沿城市防御环线建造的数十座岗楼中唯一留存的实例。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_montagna",
+      "lat": 44.82539,
+      "lon": 11.63423,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo della Montagna",
+          "text": "Il Baluardo della Montagna è una vera leggenda vivente del sistema difensivo ferrarese. Quando fu completato, nel 1520, gli osservatori dell'epoca lo definirono semplicemente la più superba fortezza del mondo. Non lasciatevi ingannare dall'apparenza collinare del terreno: non si tratta di un rilievo naturale, ma di una colossale montagna artificiale, eretta per sorreggere e celare l'artiglieria più temuta dell'arsenale estense.\n\nQui erano installati cannoni dai nomi evocativi e terrificanti: il Gran Diavolo e il Tremuoto. Furono così famosi da essere immortalati dal genio di Ludovico Ariosto nel suo Orlando Furioso, a dimostrazione di come, a Ferrara, la potenza militare e la poesia fossero due facce della stessa medaglia.\n\nMa questo baluardo non era solo un ingranaggio di guerra. Ercole II d'Este scelse di trasformare questo colosso in una dimora di delizie: chi varcava la soglia del bastione si trovava immerso in grotte segrete decorate con conchiglie marine, specchi e foglie d'oro, e in un serraglio con leoni, struzzi e asini nani. Un parco dei divertimenti rinascimentale celato nel cuore di una fortezza inespugnabile.\n\nLa fama di questo luogo divenne tale da superare i confini della penisola. Si racconta che persino Michelangelo Buonarroti sia giunto appositamente a Ferrara per studiare la perfezione di queste difese. Il maestro voleva capire come fosse possibile che tanta forza bruta potesse celare tanta raffinatezza estetica. Ascoltate il silenzio di questi alberi: in ogni zolla di questo bastione sopravvive ancora l'eco di quel sogno rinascimentale, dove la guerra e il lusso danzavano insieme."
+        },
+        "en": {
+          "title": "Bastion of the Mountain",
+          "text": "In 1518, the military engineer Sebastiano Bonmartini designed this large arrow-shaped bastion, described in 1520 by Ferrante Gonzaga as the most splendid fortress in the world. With the earth from the excavations, a colossal artificial mound was raised, upon which Alfonso primo d'Este installed his famous cannons — Ariosto's Orlando Furioso names two of them: the Gran Diavolo and the Tremuoto. In 1529, even Michelangelo came to Ferrara specifically to study these bastions. Inside the mound, Ercole II had two underground grottos built, decorated with sea shells, gold leaf and mirrors, alongside an enclosure with lions, ostriches, dwarf donkeys, monkeys and peacocks. A Renaissance amusement park hidden inside a fortress."
+        },
+        "zh": {
+          "title": "山丘棱堡",
+          "text": "1518年，军事工程师塞巴斯蒂亚诺·邦马尔蒂尼设计了这座大型箭形棱堡，1520年费兰特·贡扎加称之为世界上最宏伟的要塞。棱堡上堆起了一座巨大人工土山，阿方索一世在此安置了著名的大炮——阿里奥斯托的《疯狂的罗兰》甚至为其命名：大魔鬼和地震。1529年，米开朗基罗专程来到费拉拉研究这些棱堡。土山内部建有两座以贝壳、金箔和镜子装饰的地下洞穴，还设有关押狮子、鸵鸟、矮驴、猴子和孔雀的兽栏。一座隐藏在要塞之中的文艺复兴主题乐园。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_san_tommaso",
+      "lat": 44.83007,
+      "lon": 11.63317,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Baluardo di San Tommaso",
+          "text": "Il Baluardo di San Tommaso è un pezzo di storia che, a prima vista, appare come una solida testimonianza di pietra, ma che nasconde in sé un'anima profondamente inquieta.\n\nLa sua tipica forma a freccia, concepita all'inizio del Cinquecento, era un capolavoro di ingegneria militare progettato con una precisione geometrica che non lasciava al nemico alcun angolo cieco. Per secoli, questo luogo è stato un monumento all'intelligenza bellica, un presidio studiato per resistere all'impatto dei nuovi cannoni.\n\nMa vi invito a rallentare il passo. La colonna marmorea che vedete spuntare dal bastione non è un ornamento, ma un sigillo doloroso. Ci ricorda che la storia di questi luoghi non è scritta soltanto nei trattati di architettura militare, ma è stata segnata da un dramma che tocca la coscienza di tutti noi.\n\nÈ una notte gelida del 1943 quella che ancora sembra aleggiare tra queste mura: la notte in cui qui furono fucilati Girolamo Savonuzzi e Arturo Torboli. Due uomini che pagarono con la vita il coraggio delle proprie idee antifasciste. Quel sacrificio non fu soltanto la chiusura violenta di due esistenze, ma divenne il seme di una speranza che non si è mai arresa.\n\nFermatevi un momento, guardate la colonna marmorea e lasciate che il silenzio di questo luogo vi aiuti a riflettere: ogni istante trascorso su questa terra è un omaggio a chi, in una notte di novembre, ha dato tutto affinché il futuro potesse essere diverso."
+        },
+        "en": {
+          "title": "Bastion of San Tommaso",
+          "text": "The Bastion of San Tommaso takes its name from the neighbouring church of the same name, destroyed in 1836. With its typical arrow shape, it was built at the end of the second decade of the sixteenth century by the military engineer Sebastiano Bonmartini, reusing materials from the old curtain walls. It was built to protect the northern flank of the larger Bastion of the Mountain. On the bastion stands a marble column commemorating a tragic event: in a night in 1943, the Nazi-fascist occupiers shot Girolamo Savonuzzi and Arturo Torboli here, municipal staff monitored for their anti-fascist beliefs. The military history of these places does not stop at the sixteenth century."
+        },
+        "zh": {
+          "title": "圣托马索棱堡",
+          "text": "圣托马索棱堡以附近1836年被拆除的同名教堂命名。这座典型的箭形棱堡由军事工程师塞巴斯蒂亚诺·邦马尔蒂尼在十六世纪建造，用于保护规模更大的山丘棱堡的北侧。棱堡上至今矗立着一根大理石纪念柱，铭记1943年纳粹法西斯占领者在此枪决了因持有反法西斯思想而遭监视的市政工作人员。这些地方的军事历史并不止于十六世纪。"
+        }
+      }
+    },
+    {
+      "id": "baluardo_san_rocco",
+      "lat": 44.83461,
+      "lon": 11.63534,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Ex Baluardo di San Rocco",
+          "text": "L'area che stiamo percorrendo è quella dell'ex Baluardo di San Rocco. La sua presenza, oggi, è più evocata che visibile: il profilo è tratteggiato dalle siepi che corrono dove, un tempo, si ergevano mura imponenti. Questo bastione è il simbolo di una metamorfosi profonda: fu demolito alla fine dell'Ottocento, in un momento in cui Ferrara cercava di aprirsi al progresso e a una nuova idea di spazio urbano.\n\nCiò che rende straordinaria la storia di questo luogo è il destino dei suoi materiali. Quando le piccozze iniziarono a smantellare il bastione, gran parte dei mattoni fu recuperata e reimpiegata per costruire le case e le strade della Ferrara che viviamo quotidianamente. La fortezza non è mai sparita: si è solo frammentata, entrando a far parte dell'ossatura domestica della città.\n\nPrima di svanire, però, questo luogo ha custodito storie umane di estrema miseria e resilienza. Le sue casematte divennero rifugio per gli indigenti, per chi non aveva una casa. E a poca distanza si trova anche il resto del doccile di San Rocco, un capolavoro di genio ingegneristico: secoli fa, Ferrara aveva già compreso che una capitale non doveva essere solo inespugnabile, ma anche sana.\n\nSan Rocco è un bastione che, anche svanendo, ha continuato a prendersi cura di Ferrara: prima proteggendola dalle armi, poi offrendo riparo ai suoi figli più poveri, e infine donando i propri mattoni per elevare la città moderna. Un cerchio perfetto di memoria e utilità."
+        },
+        "en": {
+          "title": "Former Bastion of San Rocco",
+          "text": "The former Bastion of San Rocco takes its name from the church of the same name that once stood nearby. In 1862, the municipality decreed its demolition, completed in 1872: the recovered bricks were used in various public works, while the earth was used to widen the internal road on the ramparts and to fill the trench. Archaeological excavations in 1979 exposed the buried foundations, whose perimeter is now marked by hedges. Nearby, the remains of the drainage duct of San Rocco recall the ingenious sewage system that channelled the city's waters toward the external canals."
+        },
+        "zh": {
+          "title": "前圣罗科棱堡",
+          "text": "前圣罗科棱堡以附近曾矗立的同名教堂命名。1862年市政府下令拆除，分阶段于1872年完成。回收的砖块用于多项公共工程，土方主要用于拓宽城墙内部道路和填充壕沟。连接段建造了拱形结构以填补空缺，中断了幕墙的连续性。1979年的考古发掘揭露了深埋的基础，其周界如今以树篱标记。"
+        }
+      }
+    },
+    {
+      "id": "mura_ercole",
+      "lat": 44.841,
+      "lon": 11.63426,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Torrione di San Giovanni",
+          "text": "Ci troviamo al cospetto del Torrione di San Giovanni, un luogo che non è soltanto una fortificazione, ma il fulcro di una vera e propria rivoluzione. Siamo nel cuore pulsante dell'Addizione Erculea, quel visionario progetto urbanistico che, tra il 1493 e il 1505, cambiò radicalmente il destino di Ferrara, trasformandola nella prima vera città moderna d'Europa.\n\nImmaginate lo stupore dei contemporanei: mentre il resto d'Europa viveva ancora nel dedalo delle strette vie medievali, il Duca Ercole primo d'Este, insieme al suo architetto Biagio Rossetti, osava ridisegnare lo spazio.\n\nOggi questo luogo vive una vita sorprendente: è la sede del prestigioso Jazz Club di Ferrara. Dove un tempo si tendeva l'orecchio per cogliere il fragore di un assedio, oggi risuonano le note raffinate dei concerti jazz. Il Torrione, nato per la guerra, è diventato un palcoscenico per l'improvvisazione e la libertà creativa.\n\nSe volgete lo sguardo verso le vicinanze, noterete il Cimitero Ebraico. È una testimonianza viva di una storia speciale: qui, sotto la protezione degli Este, la comunità ebraica godette di privilegi unici, contribuendo a rendere Ferrara un centro di cultura e tolleranza. Siamo su un confine che ha saputo proteggere non solo le pietre, ma il valore inestimabile del pensiero umano."
+        },
+        "en": {
+          "title": "The Walls of Ercole primo d'Este, Torrione San Giovanni",
+          "text": "This stretch of walls, built between 1493 and 1505 to a design by Biagio Rossetti, was created alongside the Herculean Addition, the great urban expansion north of the castle. The embankment built against the base of the bastions absorbed the force of projectiles and allowed the planting of trees — today this military solution has become the city's green lung. Not far from the Torrione di San Giovanni, the famous Jewish Cemetery, dating from 1626, can be glimpsed: testimony to a community that under the Este enjoyed particular privileges, and which after the 1598 devolution followed Cesare d'Este to Modena, abandoning the city it had helped make great."
+        },
+        "zh": {
+          "title": "埃尔科莱一世城墙，圣乔瓦尼塔楼",
+          "text": "这段城墙建于1493至1505年间，由埃尔科莱一世下令、比亚吉奥·罗塞蒂设计，与海格力斯扩建同步进行。筑在棱堡基部的土堤能吸收炮弹冲击力，其后部还可种植高大乔木加固防线。如今这一军事设施已成为城市宝贵的绿肺。沿步道前行，在圣乔瓦尼塔楼不远处可隐约看到著名的犹太公墓，该公墓可追溯至1626年。"
+        }
+      }
+    },
+    {
+      "id": "mura_ercole_narrativo",
+      "lat": 44.844755,
+      "lon": 11.632965,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Le Mura di Ercole primo d'Este",
+          "text": "Provate a chiudere per un istante gli occhi e a immaginare la Ferrara di fine Quattrocento. Non è la città che conosciamo oggi, ma un cantiere a cielo aperto, un fermento di idee che scuote l'Europa intera. Siete nel cuore pulsante del progetto di Ercole primo d'Este e del suo genio di corte, l'architetto Biagio Rossetti. Qui, nel tratto che unisce il Torrione di San Giovanni a quello del Barco, non state semplicemente camminando sopra un terrapieno: state percorrendo il confine di un sogno moderno.\n\nLe radici degli alberi sotto i vostri piedi non sono solo natura; sono l'armatura segreta di Ferrara. Insieme alla massa della terra, formano un cuscino naturale che per secoli ha assorbito l'energia brutale dell'impatto dei cannoni. Ogni albero che incontrate lungo questo percorso è un soldato silenzioso che presidia ancora, dopo cinque secoli, la bellezza di questa città.\n\nStiamo percorrendo il tratto più suggestivo del circuito, il camminamento alto che per secoli è stato dominio esclusivo delle sentinelle. Provate a immaginare: di notte, in questo esatto punto, si scrutava l'oscurità con il cuore in gola, pronti a dare l'allarme al minimo movimento oltre il vallo.\n\nOggi, per fortuna, lo scenario è radicalmente cambiato. Al posto delle armature scintillanti troviamo ciclisti, passi leggeri, bambini che giocano. È un confine che non divide più, ma che unisce: da un lato il passato glorioso del Rinascimento, dall'altro la vitalità del nostro presente."
+        },
+        "en": {
+          "title": "",
+          "text": ""
+        },
+        "zh": {
+          "title": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "montagnola_barchetto",
+      "lat": 44.8486,
+      "lon": 11.63213,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Montagnola del Barchetto o Rotonda",
+          "text": "Ci troviamo in un punto che sembra sospeso fuori dal tempo: la Montagnola del Barchetto, conosciuta anche come la Rotonda. Guardatevi intorno: la forma stessa di questa altura suggerisce ancora l'idea di un osservatorio privilegiato, un luogo dove la mano dell'uomo ha scolpito il paesaggio per farne il teatro di una vita dorata.\n\nImmaginatevi nel pieno del Cinquecento. Qui sorgeva la Rotonda, una delle residenze di svago più ambite della corte di Ercole II. Giardini geometrici studiati con precisione millimetrica, ruscelli tra essenze rare, aironi e uccelli esotici. Era un paradiso in terra, progettato per isolare la famiglia ducale dalle tensioni politiche e dalle epidemie.\n\nEppure, proprio perché è stata luogo di tanta bellezza, la memoria popolare ha impresso in questo angolo un'ombra profonda. Se sostate qui nelle sere d'autunno, quando la tramontana scende dalle valli, il vento non si limita a soffiare: sembra quasi parlare. Tendete bene l'orecchio. I ferraresi si tramandano da secoli il mito dell'Urlòn dal Barch. La leggenda narra di Magrino, un servitore di corte che, dopo un celebre esorcismo, fu condannato a vagare in eterno tra questi alberi, urlando nella tempesta.\n\nChe ci crediate o no, c'è un'energia strana che aleggia in questo punto. È come se le mura volessero sigillare i segreti più oscuri di una corte che, dietro la maschera di feste scintillanti e poesie, nascondeva passioni e dolori profondi. Restate ancora un istante in silenzio: il Barchetto non è solo un sito monumentale, è il luogo dove la nostra storia continua a sussurrare al vento."
+        },
+        "en": {
+          "title": "Montagnola del Barchetto or Rotonda",
+          "text": "Already documented in 1529, the earth mound guarded the Rotonda, the residence commissioned by Ercole II d'Este in 1550. Inside the tower was the Duke's octagonal bedroom with a frescoed vault; a stairway led to a courtyard with a loggia painted with landscapes by the Flemish painter Lucas of Holland. The residence was set within geometric gardens, streams and enclosures for herons and cranes. But it is in this place that the Urlon dal Barch still wanders on stormy nights: according to Ferrarese legend, the diabolical servant Magrino, after an exorcism, was cursed to wander the Barco forever, howling in the storm. The people of Ferrara say they can still hear him, when the north wind blows."
+        },
+        "zh": {
+          "title": "巴尔凯托山丘",
+          "text": "早在1529年便有文献记载，这座土丘守护着埃尔科莱二世于1550年建造的圆形楼。塔楼内是公爵的八角形卧室，台阶通向由佛兰德画家卢卡·达·奥兰达绘以风景画的廊道庭院。府邸四周是几何花园、小溪和鹭鹤兽栏。然而，据费拉拉传说，每当暴风雨夜晚，巴尔科吼叫者仍在此游荡：魔鬼仆人马格里诺被驱魔后，被诅咒永远在巴尔科游荡嚎叫。费拉拉人说，每当北风吹起，仍能听到那声音。"
+        }
+      }
+    },
+    {
+      "id": "porta_degli_angeli",
+      "lat": 44.84922,
+      "lon": 11.62445,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Porta degli Angeli e Ca' dal Boia",
+          "text": "Siamo giunti in un luogo dove il confine tra storia documentata e suggestione popolare si fa ancora più labile: la Porta degli Angeli. La sua origine risale al 1525, quando fu progettata come un formidabile caposaldo difensivo, una sentinella di mattoni posta a protezione di un varco strategico.\n\nEppure, il nome che molti ferraresi le attribuiscono ancora oggi è ben diverso: la Casa del Boia. Un appellativo che evoca brividi e immagini oscure, nato in un'epoca in cui la struttura appariva agli occhi della gente come un luogo sinistro. La realtà storica è però meno cruenta: nell'Ottocento, il varco fu convertito in un macello cittadino. Il nome, però, era ormai scolpito nell'immaginario collettivo.\n\nAttorno a queste mura ruota anche un'altra delle leggende più famose della città. Si racconta che la porta fu fatta murare nel 1598, durante la devoluzione di Ferrara, per coprire la fuga di Cesare d'Este. Ma l'archeologia moderna ha svelato la verità: il passaggio rimase vivo e praticabile per molto tempo ancora.\n\nOsservate ora la struttura davanti a voi: il rivellino che vedete oggi è una ricostruzione che ci restituisce la visione di come doveva apparire questo sistema difensivo. Non immaginate questa porta isolata, ma circondata da fossati d'acqua, con il rumore delle catene dei ponti levatoi e il vociare delle guardie. In questo angolo di Ferrara, il silenzio di oggi sembra ancora custodire quei suoni perduti."
+        },
+        "en": {
+          "title": "Porta degli Angeli",
+          "text": "Porta degli Angeli is the only northern gateway of the circuit built by Ercole primo d'Este between 1493 and 1505. It was the most prestigious gate in the city: illustrious guests and the dukes themselves entered through here. It was through this gate that, in 1598, Cesare d'Este left Ferrara forever, ceding it to the Papal State. The tower later became a customs barrier, and in 1820 a slaughterhouse for pigs — whose harrowing cries remained etched in popular memory. Since then the people of Ferrara have called it Ca' dal boia, the Executioner's House. A sinister and evocative name, but entirely inaccurate: the executioner never lived here. The name came from the pigs, not the hangman."
+        },
+        "zh": {
+          "title": "天使之门",
+          "text": "天使之门是埃尔科莱一世于1493至1505年间建造的防御环线唯一的北部入口，也是城市中最具声望的城门。1598年，切萨雷·德·埃斯特就是通过这扇门永远离开了费拉拉，将其移交给教皇国。这座塔楼后来变成海关屏障，1820年又变成猪的屠宰场——那令人心碎的嚎叫声深深印在了民间记忆中。从那以后，费拉拉人称其为刽子手之屋。这个名字阴森而引人遐想，却完全不准确：刽子手从未住在这里。这个名字来自猪，而非行刑者。"
+        }
+      }
+    },
+    {
+      "id": "torrione_barco",
+      "lat": 44.8497,
+      "lon": 11.61612,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Torrione del Barco",
+          "text": "Siamo al cospetto del vero colosso dell'intero circuito difensivo: il Torrione del Barco. Con i suoi ventuno metri di diametro, questa struttura non è solo un elemento architettonico, è una dichiarazione di potenza. Fu progettato nel 1493 da due menti che hanno segnato il volto di Ferrara: l'architetto Biagio Rossetti e l'ingegnere militare Bartolomeo Tristano.\n\nAll'interno del gigante si cela una casamatta che lascia ancora oggi senza fiato: una volta a botte che rappresenta un prodigio dell'ingegneria del Quattrocento. Osservate con attenzione le bombardiere a doppia tromba e le cannoniere ricavate nella muratura: la loro forma era studiata per massimizzare il campo di tiro e permettere ai difensori di colpire il nemico in ogni direzione, senza lasciare angoli morti.\n\nOgni feritoia che vedete è un occhio di pietra che ha scrutato incessantemente il fossato, vegliando sulla tranquillità dei cittadini. Guardando questo Torrione, non vedete solo un pezzo di storia militare, ma l'immagine di una Ferrara che guardava al futuro, consapevole che la sopravvivenza non dipendeva solo dallo spessore delle mura, ma dall'ingegno che le animava. È l'ultimo baluardo di un sistema che, secoli fa, rendeva la nostra città un modello di innovazione difensiva invidiato da tutte le corti d'Europa."
+        },
+        "en": {
+          "title": "Tower of the Barco",
+          "text": "With its 21 metres of external diameter, the Torrione del Barco is the largest of the circular towers built by Biagio Rossetti along the walls of the Herculean Addition, from 1493 onwards. The great casemate structure divides the upper platform from the gallery below, where cannons were lowered by means of a pulley. Beyond the walls stretched the Barco, the great Este hunting park: a place of pleasure reserved for the dukes, but also — in the popular Ferrarese imagination — the stage of nightly witches' gatherings and the dwelling of the Urlon, the howling demon who still roams the area on stormy nights."
+        },
+        "zh": {
+          "title": "巴尔科塔楼",
+          "text": "巴尔科塔楼外径达21米，是比亚吉奥·罗塞蒂自1493年起沿海格力斯扩建城墙西北角修建的圆形塔楼中最大的一座。其巨大的地堡结构将上部平台与下方廊道分隔开来，大炮通过滑轮降入廊道。城墙之外延伸着巴尔科，埃斯特家族的大型狩猎公园。在费拉拉民间想象中，这里也是夜间女巫聚会的舞台和巴尔科吼叫者的居所——据说，每逢暴风雨夜晚，它仍在附近游荡。"
+        }
+      }
+    },
+    {
+      "id": "mura_cinquecentesche",
+      "lat": 44.846672,
+      "lon": 11.612189,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Le Mura Cinquecentesche",
+          "text": "Siamo al cospetto di uno dei tratti più emblematici dell'intero circuito difensivo, quello che costeggia l'area di via Porta Catena. Osservando la linea di queste fortificazioni, si resta colpiti dalla solennità del disegno: un rettilineo che si distende con una precisione quasi geometrica, come se volesse tracciare un confine definitivo tra la città degli uomini e l'aperta campagna.\n\nNon lasciatevi trarre in inganno dalla linearità di questo tratto. Proprio in quest'area si trova il saliente di Porta Catena: non è una torre gigantesca né un bastione monumentale, ma una struttura quadrangolare, quasi schiva, che sporge appena dal corpo principale del muro. Eppure, proprio in questa apparente semplicità, risiede un'efficacia incredibile: era un punto di fuoco pensato per chiudere ogni angolo cieco.\n\nCamminando lungo questo sentiero, non possiamo ignorare le tracce di un passato più vicino a noi. I fornici di via Tumiati sono testimonianze vivide delle incursioni aeree della Seconda Guerra Mondiale. Le mura che vediamo oggi sono un puzzle unico e stratificato: la saggezza dei mastri muratori del Cinquecento si fonde con la resilienza di una città che ha saputo riparare le proprie ferite senza mai cercare di occultare il proprio passato. Ogni mattone riparato racconta la storia di una Ferrara che ha scelto di restare in piedi."
+        },
+        "en": {
+          "title": "",
+          "text": ""
+        },
+        "zh": {
+          "title": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "fortezza_pontificia",
+      "lat": 44.843088,
+      "lon": 11.608038,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "La Fortezza Pontificia",
+          "text": "Siamo giunti in un luogo che incarna, forse più di ogni altro, la complessità dell'anima di Ferrara: un lembo di terra dove la storia è stata scritta, cancellata e poi riscritta. Dove oggi godiamo del verde rigoglioso del parco di Viale IV Novembre, all'inizio del XVII secolo sorgeva una gigantesca fortezza a pianta stellare. Fu voluta dal Papa subito dopo aver strappato la città al dominio degli Este, nel 1598, per marcare il nuovo potere pontificio sul corpo della capitale rinascimentale.\n\nPer far sorgere questo colosso di pietra, in pochi mesi un intero quartiere medievale fu raso al suolo. Tra le vittime illustri di questa distruzione vi fu la Delizia di Belvedere. Oggi, di quel colosso fortificato, restano soltanto flebili tracce: se scrutate con attenzione la vegetazione che si addensa nel parco, scorgerete ancora le sagome di due dei cinque baluardi originali, ormai silenti e quasi inghiottiti dalla terra.\n\nMa questo prato custodisce anche una memoria che non si può ignorare. Proprio in questo spazio, nel 1853, il suolo di Ferrara fu macchiato dal sacrificio di tre giovani patrioti: Succi, Malagutti e Parmeggiani. Furono fucilati qui dagli occupanti austriaci, colpevoli soltanto di aver sognato un'Italia unita e libera.\n\nQuando camminate tra questi alberi, cercate di avvertire questo legame: ogni passo su questo prato è un omaggio alla libertà. La fortezza pontificia, col suo carico di oppressione, è svanita, trasformandosi in linfa per le piante che ora ci offrono ombra. Ferrara, nel trasformare la sua fortezza in parco, ci insegna che il tempo è capace di sanare le cicatrici più profonde."
+        },
+        "en": {
+          "title": "The Papal Fortress",
+          "text": "You are walking along one of the quietest stretches of the walls, yet one of the most historically charged. Here, where the green of the park and the Rione Giardino now spread out, stood the great pentagonal papal fortress with five bastions, built in 1608 on the orders of Pope Paul V after Ferrara was taken from the Este. It was to build it that the Isola di Belvedere was razed to the ground — the dukes' most beloved retreat, erased in a few months after a century of splendour. Two of the five bastions survive, hidden in the park of Viale IV Novembre. In this very place, on 16 March 1853, the Austrians shot three Ferrarese citizens — Giacomo Succi, Domenico Malagutti and Luigi Parmeggiani — guilty of dreaming of a united Italy. A marble monument in the park still commemorates their sacrifice."
+        },
+        "zh": {
+          "title": "教皇要塞",
+          "text": "你正走在城墙最静谧却最充满历史的路段之一。这里曾矗立着一座五棱堡星形教皇要塞，1608年由教皇保罗五世下令建造，彼时费拉拉已从埃斯特家族手中被夺走。正是为了修建这座要塞，贝尔韦代雷岛被夷为平地——在百年辉煌之后，仅数月便消失殆尽。五座棱堡中的两座至今仍存，隐没在四月大道公园之中。就在这片土地上，1853年3月16日，奥地利人枪决了三位费拉拉市民——贾科莫·苏奇、多梅尼科·马拉古蒂和路易吉·帕尔梅贾尼——他们的罪名是梦想意大利统一。"
+        }
+      }
+    },
+    {
+      "id": "isola_belvedere",
+      "lat": 44.83696,
+      "lon": 11.60414,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Isola e Palazzo di Belvedere",
+          "text": "Siamo in un'area dove il presente urbano nasconde uno dei segreti più struggenti della storia di Ferrara. Camminando oggi lungo l'asse tra Via San Giacomo e Via Darsena, è quasi impossibile immaginare che sotto questi asfalti si estendesse la perla più splendente del Rinascimento ferrarese: l'Isola di Belvedere.\n\nProvate per un istante a far svanire la città moderna. Al suo posto, immaginate un paradiso lungo quasi un chilometro, circondato dalle acque scintillanti del Po. Non era una semplice dimora, era una Delizia nel senso più profondo del termine. Giardini all'italiana disegnati con geometrie perfette, fontane che riflettevano la luce dorata dei pomeriggi estensi e loggiati affrescati.\n\nQui, lontano dal clamore della corte urbana, i duchi d'Este coltivavano le arti e il piacere. Tra queste sale sono passati Ludovico Ariosto e Torquato Tasso. Era il centro del fasto ducale, una meta ambita da ambasciatori e nobili provenienti da tutta Europa.\n\nPoi, nel 1618, la storia voltò pagina con una violenza devastante. In pochissimi mesi, l'Isola e il suo Palazzo furono deliberatamente rasi al suolo per fare spazio alla Fortezza pontificia. Quello che era stato un monumento al genio umano fu demolito fino a non lasciare quasi più traccia visibile.\n\nOggi non resta nulla di quel paradiso, se non la consapevolezza che calpestiamo un suolo testimone di una delle pagine più raffinate della cultura europea. In questa assenza, risiede la nostra missione: ricostruire con la mente quei giardini e quei canti che hanno risuonato qui per decenni."
+        },
+        "en": {
+          "title": "Isola and Palazzo di Belvedere",
+          "text": "Around a kilometre long, the Isola di Belvedere was one of the most delightful places in Renaissance Ferrara, situated on the ancient course of the River Po. Duke Alfonso primo d'Este built here, from 1513, an exclusive complex with geometric gardens, fountains, exotic animals and a palace with a large open courtyard. Ariosto celebrated it in Orlando Furioso; Torquato Tasso composed verses here. It was the jewel of the city. In 1618, in a matter of months, it was all demolished to make way for the papal fortress. Nothing remains. The area of the island now corresponds to the zone between Via San Giacomo and Via Darsena — ordinary streets of an ordinary city, where princely tournaments and banquets were once held."
+        },
+        "zh": {
+          "title": "贝尔韦代雷岛与宫殿",
+          "text": "贝尔韦代雷岛长约一公里，是文艺复兴时期费拉拉最宜人的地方之一。阿方索一世公爵自1513年起在此建造了专属府邸，包括几何花园、喷泉、异域动物和带宽阔庭院的宫殿。阿里奥斯托在《疯狂的罗兰》中颂扬了它；托尔夸托·塔索在此创作诗篇。它是这座城市的瑰宝。1618年，短短数月之内，一切都被夷为平地，为教皇要塞让路。什么都没有留下。"
+        }
+      }
+    },
+    {
+      "id": "darsena",
+      "lat": 44.83336,
+      "lon": 11.60904,
+      "trigger_radius_m": 40,
+      "content": {
+        "it": {
+          "title": "Darsena",
+          "text": "Siamo giunti a quello che, per secoli, è stato il vero cuore pulsante di Ferrara: la Darsena. Se oggi ci appare come un'oasi di tranquillità urbana, provate a chiudere gli occhi e ad ascoltare il passato che ancora vibra tra queste sponde. Un tempo, non c'era pace: questo era un porto fluviale frenetico, il polmone che collegava Ferrara al grande Po e, attraverso il labirinto delle acque, al mondo intero e alla maestosa Venezia.\n\nPer secoli, il viavai di merci e di persone non ha conosciuto soste. Le voci dei facchini, il cigolio delle funi, il richiamo dei barcaioli e il profumo del sale e del legno creavano una sinfonia incessante, la colonna sonora di una città che non era un'isola chiusa tra le sue mura, ma un porto spalancato sull'orizzonte.\n\nOggi, guardandovi intorno, vedete il frutto di una profonda riqualificazione. I vecchi magazzini, che un tempo custodivano i tesori dei mercanti, si sono trasformati in laboratori di cultura e spazi di incontro.\n\nRespirate a fondo l'aria di questo porto rigenerato. Siete giunti al traguardo ideale della vostra Ferraronda. Avete percorso secoli di storia in pochi chilometri, vedendo Ferrara da una prospettiva che pochissimi conoscono davvero. Lasciate che la quiete di questo specchio d'acqua accompagni le vostre riflessioni: avete camminato sulla storia, avete ascoltato il silenzio dei baluardi e il sussurro dei fantasmi rinascimentali."
+        },
+        "en": {
+          "title": "Darsena",
+          "text": "The Darsena of Ferrara was the river port of the Este city, the heart of trade along the Po. Built in the sixteenth century by the Este family, it was the exchange point with Venice and the other cities of the Po valley. Today completely regenerated, it is a lively cycle and pedestrian area where the old port warehouses now house cafes and cultural venues. You are about to return to the starting point: you have almost completed the Ferraronda."
+        },
+        "zh": {
+          "title": "达尔塞纳港",
+          "text": "费拉拉达尔塞纳港是埃斯特城市的河港，是波河沿线贸易的核心。由埃斯特家族在十六世纪建造，是与威尼斯进行商业交流的跳动心脏。如今经过全面改造，已成为充满活力的自行车和步行区域，昔日的港口仓库现已成为餐饮场所和文化活动场地。你即将回到出发点：费拉伦达之旅即将完成。"
+        }
+      }
+    }
+  ],
+  "route": [
+    {
+      "lat": 44.83491,
+      "lon": 11.61147
+    },
+    {
+      "lat": 44.834864,
+      "lon": 11.611611
+    },
+    {
+      "lat": 44.834736,
+      "lon": 11.611805
+    },
+    {
+      "lat": 44.834135,
+      "lon": 11.612359
+    },
+    {
+      "lat": 44.833645,
+      "lon": 11.613062
+    },
+    {
+      "lat": 44.833197,
+      "lon": 11.613323
+    },
+    {
+      "lat": 44.832698,
+      "lon": 11.613688
+    },
+    {
+      "lat": 44.832556,
+      "lon": 11.614358
+    },
+    {
+      "lat": 44.832529,
+      "lon": 11.614765
+    },
+    {
+      "lat": 44.832548,
+      "lon": 11.615038
+    },
+    {
+      "lat": 44.832478,
+      "lon": 11.61548
+    },
+    {
+      "lat": 44.83257,
+      "lon": 11.615753
+    },
+    {
+      "lat": 44.83229,
+      "lon": 11.616418
+    },
+    {
+      "lat": 44.832147,
+      "lon": 11.61692
+    },
+    {
+      "lat": 44.832006,
+      "lon": 11.617154
+    },
+    {
+      "lat": 44.831879,
+      "lon": 11.617493
+    },
+    {
+      "lat": 44.831811,
+      "lon": 11.617563
+    },
+    {
+      "lat": 44.831744,
+      "lon": 11.617555
+    },
+    {
+      "lat": 44.83146,
+      "lon": 11.617395
+    },
+    {
+      "lat": 44.830746,
+      "lon": 11.617494
+    },
+    {
+      "lat": 44.830506,
+      "lon": 11.617732
+    },
+    {
+      "lat": 44.830421,
+      "lon": 11.617868
+    },
+    {
+      "lat": 44.830338,
+      "lon": 11.618151
+    },
+    {
+      "lat": 44.830399,
+      "lon": 11.61842
+    },
+    {
+      "lat": 44.83035,
+      "lon": 11.618614
+    },
+    {
+      "lat": 44.830044,
+      "lon": 11.61909
+    },
+    {
+      "lat": 44.829898,
+      "lon": 11.619208
+    },
+    {
+      "lat": 44.829625,
+      "lon": 11.619341
+    },
+    {
+      "lat": 44.829109,
+      "lon": 11.619524
+    },
+    {
+      "lat": 44.828392,
+      "lon": 11.619832
+    },
+    {
+      "lat": 44.828335,
+      "lon": 11.619891
+    },
+    {
+      "lat": 44.82805,
+      "lon": 11.620792
+    },
+    {
+      "lat": 44.827878,
+      "lon": 11.621453
+    },
+    {
+      "lat": 44.827732,
+      "lon": 11.621663
+    },
+    {
+      "lat": 44.827488,
+      "lon": 11.621777
+    },
+    {
+      "lat": 44.826883,
+      "lon": 11.621928
+    },
+    {
+      "lat": 44.826426,
+      "lon": 11.621956
+    },
+    {
+      "lat": 44.826259,
+      "lon": 11.622017
+    },
+    {
+      "lat": 44.826135,
+      "lon": 11.622258
+    },
+    {
+      "lat": 44.825864,
+      "lon": 11.62358
+    },
+    {
+      "lat": 44.825728,
+      "lon": 11.623924
+    },
+    {
+      "lat": 44.825578,
+      "lon": 11.624167
+    },
+    {
+      "lat": 44.825247,
+      "lon": 11.624547
+    },
+    {
+      "lat": 44.82479,
+      "lon": 11.625155
+    },
+    {
+      "lat": 44.824748,
+      "lon": 11.625758
+    },
+    {
+      "lat": 44.82477,
+      "lon": 11.62681
+    },
+    {
+      "lat": 44.824819,
+      "lon": 11.627162
+    },
+    {
+      "lat": 44.824822,
+      "lon": 11.627519
+    },
+    {
+      "lat": 44.824749,
+      "lon": 11.627795
+    },
+    {
+      "lat": 44.824706,
+      "lon": 11.628434
+    },
+    {
+      "lat": 44.824488,
+      "lon": 11.628771
+    },
+    {
+      "lat": 44.824322,
+      "lon": 11.629339
+    },
+    {
+      "lat": 44.824323,
+      "lon": 11.629437
+    },
+    {
+      "lat": 44.824373,
+      "lon": 11.62972
+    },
+    {
+      "lat": 44.824492,
+      "lon": 11.629984
+    },
+    {
+      "lat": 44.824875,
+      "lon": 11.630376
+    },
+    {
+      "lat": 44.825015,
+      "lon": 11.630408
+    },
+    {
+      "lat": 44.825242,
+      "lon": 11.630573
+    },
+    {
+      "lat": 44.825347,
+      "lon": 11.630761
+    },
+    {
+      "lat": 44.825451,
+      "lon": 11.631138
+    },
+    {
+      "lat": 44.825515,
+      "lon": 11.631629
+    },
+    {
+      "lat": 44.825503,
+      "lon": 11.631773
+    },
+    {
+      "lat": 44.825373,
+      "lon": 11.632163
+    },
+    {
+      "lat": 44.825367,
+      "lon": 11.63236
+    },
+    {
+      "lat": 44.825277,
+      "lon": 11.632563
+    },
+    {
+      "lat": 44.825253,
+      "lon": 11.632781
+    },
+    {
+      "lat": 44.825269,
+      "lon": 11.63311
+    },
+    {
+      "lat": 44.825371,
+      "lon": 11.633801
+    },
+    {
+      "lat": 44.825462,
+      "lon": 11.633867
+    },
+    {
+      "lat": 44.82573,
+      "lon": 11.633873
+    },
+    {
+      "lat": 44.825965,
+      "lon": 11.633974
+    },
+    {
+      "lat": 44.826249,
+      "lon": 11.633955
+    },
+    {
+      "lat": 44.826395,
+      "lon": 11.633863
+    },
+    {
+      "lat": 44.826565,
+      "lon": 11.63345
+    },
+    {
+      "lat": 44.826812,
+      "lon": 11.633304
+    },
+    {
+      "lat": 44.829008,
+      "lon": 11.632578
+    },
+    {
+      "lat": 44.829109,
+      "lon": 11.632615
+    },
+    {
+      "lat": 44.829194,
+      "lon": 11.632719
+    },
+    {
+      "lat": 44.829332,
+      "lon": 11.633156
+    },
+    {
+      "lat": 44.829571,
+      "lon": 11.633413
+    },
+    {
+      "lat": 44.829709,
+      "lon": 11.633372
+    },
+    {
+      "lat": 44.830384,
+      "lon": 11.6329
+    },
+    {
+      "lat": 44.83047,
+      "lon": 11.63291
+    },
+    {
+      "lat": 44.830765,
+      "lon": 11.633065
+    },
+    {
+      "lat": 44.831248,
+      "lon": 11.633434
+    },
+    {
+      "lat": 44.831263,
+      "lon": 11.633758
+    },
+    {
+      "lat": 44.831218,
+      "lon": 11.634068
+    },
+    {
+      "lat": 44.831262,
+      "lon": 11.634181
+    },
+    {
+      "lat": 44.831335,
+      "lon": 11.634259
+    },
+    {
+      "lat": 44.831411,
+      "lon": 11.634249
+    },
+    {
+      "lat": 44.831585,
+      "lon": 11.634052
+    },
+    {
+      "lat": 44.831898,
+      "lon": 11.634122
+    },
+    {
+      "lat": 44.833433,
+      "lon": 11.634848
+    },
+    {
+      "lat": 44.833589,
+      "lon": 11.634974
+    },
+    {
+      "lat": 44.834083,
+      "lon": 11.635219
+    },
+    {
+      "lat": 44.834399,
+      "lon": 11.63528
+    },
+    {
+      "lat": 44.834818,
+      "lon": 11.635291
+    },
+    {
+      "lat": 44.836599,
+      "lon": 11.635173
+    },
+    {
+      "lat": 44.837294,
+      "lon": 11.635095
+    },
+    {
+      "lat": 44.837548,
+      "lon": 11.635223
+    },
+    {
+      "lat": 44.837786,
+      "lon": 11.635101
+    },
+    {
+      "lat": 44.838876,
+      "lon": 11.63501
+    },
+    {
+      "lat": 44.839057,
+      "lon": 11.634881
+    },
+    {
+      "lat": 44.839284,
+      "lon": 11.634882
+    },
+    {
+      "lat": 44.839925,
+      "lon": 11.634808
+    },
+    {
+      "lat": 44.840055,
+      "lon": 11.634827
+    },
+    {
+      "lat": 44.840341,
+      "lon": 11.634747
+    },
+    {
+      "lat": 44.840598,
+      "lon": 11.63477
+    },
+    {
+      "lat": 44.840763,
+      "lon": 11.634638
+    },
+    {
+      "lat": 44.840877,
+      "lon": 11.634306
+    },
+    {
+      "lat": 44.840935,
+      "lon": 11.634245
+    },
+    {
+      "lat": 44.841053,
+      "lon": 11.6342
+    },
+    {
+      "lat": 44.84258,
+      "lon": 11.633731
+    },
+    {
+      "lat": 44.843522,
+      "lon": 11.633527
+    },
+    {
+      "lat": 44.845052,
+      "lon": 11.633093
+    },
+    {
+      "lat": 44.847236,
+      "lon": 11.632431
+    },
+    {
+      "lat": 44.84751,
+      "lon": 11.632378
+    },
+    {
+      "lat": 44.847989,
+      "lon": 11.632228
+    },
+    {
+      "lat": 44.848402,
+      "lon": 11.632153
+    },
+    {
+      "lat": 44.848587,
+      "lon": 11.63188
+    },
+    {
+      "lat": 44.848708,
+      "lon": 11.631228
+    },
+    {
+      "lat": 44.848729,
+      "lon": 11.630464
+    },
+    {
+      "lat": 44.848843,
+      "lon": 11.629401
+    },
+    {
+      "lat": 44.848906,
+      "lon": 11.628201
+    },
+    {
+      "lat": 44.84905,
+      "lon": 11.626813
+    },
+    {
+      "lat": 44.849167,
+      "lon": 11.624868
+    },
+    {
+      "lat": 44.849271,
+      "lon": 11.624204
+    },
+    {
+      "lat": 44.849391,
+      "lon": 11.62247
+    },
+    {
+      "lat": 44.84943,
+      "lon": 11.622247
+    },
+    {
+      "lat": 44.849555,
+      "lon": 11.619995
+    },
+    {
+      "lat": 44.849803,
+      "lon": 11.616684
+    },
+    {
+      "lat": 44.849755,
+      "lon": 11.616433
+    },
+    {
+      "lat": 44.849508,
+      "lon": 11.616009
+    },
+    {
+      "lat": 44.849223,
+      "lon": 11.61558
+    },
+    {
+      "lat": 44.848648,
+      "lon": 11.614855
+    },
+    {
+      "lat": 44.847894,
+      "lon": 11.613938
+    },
+    {
+      "lat": 44.847736,
+      "lon": 11.613791
+    },
+    {
+      "lat": 44.846883,
+      "lon": 11.612803
+    },
+    {
+      "lat": 44.84655,
+      "lon": 11.612308
+    },
+    {
+      "lat": 44.846039,
+      "lon": 11.611727
+    },
+    {
+      "lat": 44.845823,
+      "lon": 11.611415
+    },
+    {
+      "lat": 44.845486,
+      "lon": 11.611017
+    },
+    {
+      "lat": 44.845353,
+      "lon": 11.610799
+    },
+    {
+      "lat": 44.844605,
+      "lon": 11.60992
+    },
+    {
+      "lat": 44.84429,
+      "lon": 11.609714
+    },
+    {
+      "lat": 44.843998,
+      "lon": 11.609722
+    },
+    {
+      "lat": 44.843944,
+      "lon": 11.6097
+    },
+    {
+      "lat": 44.843855,
+      "lon": 11.609572
+    },
+    {
+      "lat": 44.843672,
+      "lon": 11.609562
+    },
+    {
+      "lat": 44.843496,
+      "lon": 11.609497
+    },
+    {
+      "lat": 44.843354,
+      "lon": 11.609516
+    },
+    {
+      "lat": 44.843189,
+      "lon": 11.609372
+    },
+    {
+      "lat": 44.84317,
+      "lon": 11.609318
+    },
+    {
+      "lat": 44.843196,
+      "lon": 11.609179
+    },
+    {
+      "lat": 44.843151,
+      "lon": 11.608966
+    },
+    {
+      "lat": 44.843179,
+      "lon": 11.608718
+    },
+    {
+      "lat": 44.843102,
+      "lon": 11.608505
+    },
+    {
+      "lat": 44.843083,
+      "lon": 11.608352
+    },
+    {
+      "lat": 44.843117,
+      "lon": 11.608151
+    },
+    {
+      "lat": 44.843088,
+      "lon": 11.608038
+    },
+    {
+      "lat": 44.84283,
+      "lon": 11.607532
+    },
+    {
+      "lat": 44.842632,
+      "lon": 11.607249
+    },
+    {
+      "lat": 44.84252,
+      "lon": 11.607205
+    },
+    {
+      "lat": 44.842416,
+      "lon": 11.607076
+    },
+    {
+      "lat": 44.842339,
+      "lon": 11.607031
+    },
+    {
+      "lat": 44.842279,
+      "lon": 11.606894
+    },
+    {
+      "lat": 44.842206,
+      "lon": 11.60683
+    },
+    {
+      "lat": 44.842179,
+      "lon": 11.606697
+    },
+    {
+      "lat": 44.842051,
+      "lon": 11.60643
+    },
+    {
+      "lat": 44.841724,
+      "lon": 11.606323
+    },
+    {
+      "lat": 44.841668,
+      "lon": 11.606247
+    },
+    {
+      "lat": 44.841582,
+      "lon": 11.606207
+    },
+    {
+      "lat": 44.841533,
+      "lon": 11.606105
+    },
+    {
+      "lat": 44.841293,
+      "lon": 11.605915
+    },
+    {
+      "lat": 44.84111,
+      "lon": 11.605621
+    },
+    {
+      "lat": 44.840942,
+      "lon": 11.605459
+    },
+    {
+      "lat": 44.840818,
+      "lon": 11.605402
+    },
+    {
+      "lat": 44.840574,
+      "lon": 11.605167
+    },
+    {
+      "lat": 44.840123,
+      "lon": 11.604665
+    },
+    {
+      "lat": 44.840065,
+      "lon": 11.604582
+    },
+    {
+      "lat": 44.840041,
+      "lon": 11.604341
+    },
+    {
+      "lat": 44.839753,
+      "lon": 11.603611
+    },
+    {
+      "lat": 44.839612,
+      "lon": 11.603112
+    },
+    {
+      "lat": 44.839486,
+      "lon": 11.602966
+    },
+    {
+      "lat": 44.839285,
+      "lon": 11.602969
+    },
+    {
+      "lat": 44.839113,
+      "lon": 11.603068
+    },
+    {
+      "lat": 44.839057,
+      "lon": 11.60318
+    },
+    {
+      "lat": 44.839058,
+      "lon": 11.603369
+    },
+    {
+      "lat": 44.838879,
+      "lon": 11.603586
+    },
+    {
+      "lat": 44.838704,
+      "lon": 11.603755
+    },
+    {
+      "lat": 44.838015,
+      "lon": 11.604211
+    },
+    {
+      "lat": 44.837779,
+      "lon": 11.604158
+    },
+    {
+      "lat": 44.837661,
+      "lon": 11.604058
+    },
+    {
+      "lat": 44.83682,
+      "lon": 11.604051
+    },
+    {
+      "lat": 44.836586,
+      "lon": 11.604505
+    },
+    {
+      "lat": 44.836431,
+      "lon": 11.604903
+    },
+    {
+      "lat": 44.836349,
+      "lon": 11.605016
+    },
+    {
+      "lat": 44.836264,
+      "lon": 11.605254
+    },
+    {
+      "lat": 44.836,
+      "lon": 11.605725
+    },
+    {
+      "lat": 44.835902,
+      "lon": 11.606024
+    },
+    {
+      "lat": 44.835913,
+      "lon": 11.606181
+    },
+    {
+      "lat": 44.835576,
+      "lon": 11.606918
+    },
+    {
+      "lat": 44.835441,
+      "lon": 11.60712
+    },
+    {
+      "lat": 44.835407,
+      "lon": 11.607238
+    },
+    {
+      "lat": 44.835042,
+      "lon": 11.607295
+    },
+    {
+      "lat": 44.834818,
+      "lon": 11.607401
+    },
+    {
+      "lat": 44.834577,
+      "lon": 11.607366
+    },
+    {
+      "lat": 44.834416,
+      "lon": 11.607435
+    },
+    {
+      "lat": 44.834237,
+      "lon": 11.60755
+    },
+    {
+      "lat": 44.833927,
+      "lon": 11.607869
+    },
+    {
+      "lat": 44.833728,
+      "lon": 11.608181
+    },
+    {
+      "lat": 44.833511,
+      "lon": 11.608704
+    },
+    {
+      "lat": 44.833233,
+      "lon": 11.60923
+    },
+    {
+      "lat": 44.833172,
+      "lon": 11.609465
+    },
+    {
+      "lat": 44.833187,
+      "lon": 11.60959
+    },
+    {
+      "lat": 44.833489,
+      "lon": 11.610053
+    },
+    {
+      "lat": 44.833878,
+      "lon": 11.610358
+    },
+    {
+      "lat": 44.834085,
+      "lon": 11.610787
+    },
+    {
+      "lat": 44.834255,
+      "lon": 11.611014
+    },
+    {
+      "lat": 44.834818,
+      "lon": 11.61139
+    },
+    {
+      "lat": 44.834895,
+      "lon": 11.611386
+    },
+    {
+      "lat": 44.834974,
+      "lon": 11.611333
+    },
+    {
+      "lat": 44.8351,
+      "lon": 11.611186
+    },
+    {
+      "lat": 44.83491,
+      "lon": 11.61147
+    }
+  ],
+  "start_point": {
+    "lat": 44.83491,
+    "lon": 11.61147,
+    "label": "Partenza / Arrivo — Parcheggio Ex MOF"
+  },
+  "version": "0.0.1",
+  "version_date": "2026-06-26",
+  "author": "Stefano Franzoni"
+}

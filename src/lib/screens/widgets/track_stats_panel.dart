@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import '../../models/track_stats.dart';
 import '../../services/app_strings.dart';
 
-/// Pannello che mostra in modo leggibile le statistiche correnti di
-/// un'attività: tempo trascorso, distanza, velocità media e istantanea.
-/// Widget "stateless e puro": riceve dati e li mostra, senza logica
-/// propria — più semplice da riusare anche in altre schermate.
 class TrackStatsPanel extends StatelessWidget {
   final TrackStats stats;
   final AppStrings strings;
@@ -16,9 +12,8 @@ class TrackStatsPanel extends StatelessWidget {
     final hours = d.inHours;
     final minutes = d.inMinutes.remainder(60);
     final seconds = d.inSeconds.remainder(60);
-
     if (hours > 0) {
-      return '${hours.toString().padLeft(2, '0')}:'
+      return '${hours}:'
           '${minutes.toString().padLeft(2, '0')}:'
           '${seconds.toString().padLeft(2, '0')}';
     }
@@ -29,22 +24,30 @@ class TrackStatsPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
-        _StatItem(
-          icon: Icons.timer_outlined,
-          label: strings.time,
-          value: _formatDuration(stats.elapsed),
+        Expanded(
+          child: _StatItem(
+            icon: Icons.timer_outlined,
+            label: strings.time,
+            value: _formatDuration(stats.elapsed),
+          ),
         ),
-        _StatItem(
-          icon: Icons.straighten,
-          label: strings.distance,
-          value: '${stats.distanceKm.toStringAsFixed(2)} km',
+        Expanded(
+          child: _StatItem(
+            icon: Icons.straighten,
+            label: strings.distance,
+            // Passa automaticamente a formato più compatto oltre 10 km
+            value: stats.distanceKm >= 10
+                ? '${stats.distanceKm.toStringAsFixed(1)} km'
+                : '${stats.distanceKm.toStringAsFixed(2)} km',
+          ),
         ),
-        _StatItem(
-          icon: Icons.speed,
-          label: strings.avgSpeed,
-          value: '${stats.averageSpeedKmh.toStringAsFixed(1)} km/h',
+        Expanded(
+          child: _StatItem(
+            icon: Icons.speed,
+            label: strings.avgSpeed,
+            value: '${stats.averageSpeedKmh.toStringAsFixed(1)} km/h',
+          ),
         ),
       ],
     );
@@ -68,11 +71,13 @@ class _StatItem extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Text(
-          value,
-          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
-          maxLines: 1,
-          overflow: TextOverflow.ellipsis,
+        FittedBox(
+          fit: BoxFit.scaleDown,
+          child: Text(
+            value,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+            maxLines: 1,
+          ),
         ),
         Text(
           label,

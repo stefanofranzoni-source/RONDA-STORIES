@@ -50,7 +50,13 @@ class GeoPositionController extends ChangeNotifier {
   // (es. messaggio di ritorno al punto di partenza).
   void Function(Poi poi, int visitedCount)? onPoiTriggered;
 
+  // POI attualmente nel raggio (si svuota quando esci dal raggio,
+  // se poiRetrigger è true — serve per il re-trigger).
   final Set<String> _triggeredPoiIds = {};
+
+  // POI visitati almeno una volta durante tutta la sessione —
+  // non si svuota mai, serve per distinguere prima visita da ritorno.
+  final Set<String> _everTriggeredPoiIds = {};
   StreamSubscription<Position>? _positionSubscription;
 
   GeoPositionController(this.circuit, this.trackRecorder)
@@ -151,10 +157,14 @@ class GeoPositionController extends ChangeNotifier {
       final alreadyTriggered = _triggeredPoiIds.contains(poi.id);
 
       if (isInsideRadius && !alreadyTriggered) {
-        // visitedCount = quanti POI DIVERSI da questo sono già stati
-        // visitati — esclude il POI corrente che sta scattando ora.
-        final visitedCount = _triggeredPoiIds.length;
+        // visitedCount = quanti POI DIVERSI sono stati visitati
+        // storicamente (esclude il POI corrente che sta scattando ora).
+        // Usiamo _everTriggeredPoiIds che non si svuota mai — così
+        // al ritorno alla partenza visitedCount > 0 anche se poiRetrigger
+        // ha rimosso i POI da _triggeredPoiIds.
+        final visitedCount = _everTriggeredPoiIds.length;
         _triggeredPoiIds.add(poi.id);
+        _everTriggeredPoiIds.add(poi.id);
         onPoiTriggered?.call(poi, visitedCount);
       }
 
@@ -169,6 +179,7 @@ class GeoPositionController extends ChangeNotifier {
     await _positionSubscription?.cancel();
     _positionSubscription = null;
     _triggeredPoiIds.clear();
+    _everTriggeredPoiIds.clear();
     _gpsStatus = GpsStatus.idle;
     notifyListeners();
   }

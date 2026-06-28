@@ -1,62 +1,586 @@
-Mi trovo qui: 44.834910°N 11.611470°E http://maps.google.com/maps?q=44.83491%2C11.61148
-Partenza
+1. Le Mura di Ferrara (Partenza) (Coordinate: 44.834910, 11.611470)
+"Mettiamoci in cammino: quello che stiamo per intraprendere non è solo un itinerario tra il verde e la pietra, ma un vero viaggio nel tempo. Oltre nove chilometri di cinta muraria che, dal Quattrocento a oggi, hanno visto passare la storia di Ferrara. Queste mura sono tra le più integre d'Europa, un capolavoro UNESCO che unisce la visione di Ercole I d’Este e Biagio Rossetti alla vita quotidiana di chi, come noi, oggi le attraversa. Ogni baluardo e ogni torrione è una pagina di un libro aperto: lasciamo che sia la storia stessa ad accompagnare i nostri passi."
 
-Mi trovo qui: 44.832520°N 11.615860°E http://maps.google.com/maps?q=44.83253%2C11.61586
-Baluardo di San Paolo
+2. Baluardo di San Paolo (44.832520, 11.615860)
+"Superiamo il Baluardo di San Paolo, un luogo segnato da grandi cambiamenti. Qui, sotto la direzione dell'Aleotti, si univano le fortificazioni verso la cittadella pontificia. Se il tratto ci appare interrotto, è perché il Novecento qui è stato pesante: tra piani industriali e l'espansione del Rione Giardino, abbiamo perso quasi mezzo chilometro di cinta. È la ferita più profonda delle nostre mura, che ci ricorda come la città sia sempre in continua trasformazione, talvolta a costo della propria memoria. Guardando il vuoto lasciato alle spalle, capiamo quanto sia prezioso ogni metro di muro che abbiamo ancora la fortuna di percorrere."
 
-Mi trovo qui: 44.831700°N 11.617750°E http://maps.google.com/maps?q=44.8317%2C11.61776
-Baluardo di San Lorenzo
+3. Porta Paola (44.832330, 11.616440)
+"Ecco Porta Paola, il varco più prestigioso della Ferrara papale. Costruita nel 1612 in onore di Paolo V, la sua facciata marmorea ci accoglie con un’eleganza che oggi quasi stupisce. Immaginate, mentre passiamo, che proprio davanti a noi un tempo c’era un rivellino a forma di freccia: non era solo un elemento architettonico, ma un filtro severo che bloccava spie, sabotatori e merci non autorizzate. Dopo i restauri post-sisma del 2012, la porta è tornata a essere il fulcro della documentazione storica su queste mura: un ponte solido tra il potere del Seicento e la città che vive e pulsa attorno a noi."
 
-Mi trovo qui: 44.827920°N 11.621370°E http://maps.google.com/maps?q=44.82792%2C11.62137
-Baluardo e Porta di San Pietro
+4. Baluardo di San Lorenzo (44.831700, 11.617750)
+"Mentre superiamo questo tratto, notate come il terreno si fa ampio sotto i nostri piedi: siamo in prossimità del Baluardo di San Lorenzo. Pensate che dove oggi parcheggiamo le auto o cerchiamo le bancarelle del lunedì, fino a un secolo fa c’era il 'mercato dei cavalli', un viavai frenetico che non si è mai veramente fermato, neanche dopo secoli di storia militare. Questo bastione, a differenza degli altri, non cerca l'eleganza degli angoli arrotondati. Qui la parola d'ordine era efficacia pura: niente 'orecchioni', solo linee spigolose pensate per difendere Porta Paola, quella mole che domina la vista poco più in là. È un monumento che si è sempre dovuto reinventare: è nato come fortilizio estense sul Po, è diventato caposaldo papale, e poi, nelle sue viscere — in quelle gallerie sotterranee che corrono proprio sotto il sentiero che stiamo percorrendo — ha trovato nuove vite. Questi 'camattoni' che oggi riposano nel silenzio sono stati tutto: postazioni di difesa, rifugi di fortuna per chi non aveva una casa e, durante i bombardamenti dell'ultima guerra, un vero salvavita per tantissimi ferraresi. Se oggi le mura ci appaiono così solide, è merito anche dei grandi restauri fatti pochi anni fa, che hanno messo in sicurezza questa massa di terra che, col suo peso, premeva sui paramenti murari da secoli."
 
-Mi trovo qui: 44.826290°N 11.621980°E http://maps.google.com/maps?q=44.8263%2C11.62198
-Baluardo di Sant'Antonio
+5. Baluardo e Porta di San Pietro (44.827920, 11.621370)
+"Proseguiamo il cammino verso il Baluardo di San Pietro, la prima delle moderne fortificazioni volute da Alfonso II d'Este. È un luogo curioso, segnato da una sorta di 'dispetto' storico: nel 1630, l'arco marmoreo della porta, che portava la firma dell'architetto Aleotti, fu letteralmente smontato e traslocato dai Papi all'ingresso della loro fortezza. Era un modo plateale per cancellare la firma degli Estensi dall'ingresso della città che avevano governato per secoli. La porta originale rimase murata per anni, come un segreto dimenticato. Solo i restauri di vent’anni fa hanno riportato alla luce l'arco, restituendoci oggi quel pezzo di storia che qualcuno aveva cercato di far sparire per sempre."
 
-Mi trovo qui: 44.824670°N 11.628700°E http://maps.google.com/maps?q=44.82467%2C11.62871
-Porta Romana o di San Giorgio
+6. Baluardo di Sant'Antonio (44.826290, 11.621980)
+"Passiamo ora accanto al Baluardo di Sant'Antonio, che prende il nome dal vicino monastero benedettino che si intravede poco lontano; un luogo di silenzio e clausura che per secoli è stato protetto proprio dalle acque che cingevano queste mura. Siamo nel cuore del sistema difensivo voluto da Alfonso II alla fine del Cinquecento. Immaginate che l'area che si apre qui davanti non sia sempre stata questa terra ferma: un tempo, tutto questo era un vallo allagato, un immenso fossato che rendeva l'avvicinamento al bastione un’impresa impossibile. Se osservate bene la muratura mentre passiamo, noterete ancora i segni di ingressi oggi murati: sono le cicatrici delle casematte che corrono sotto i nostri piedi. Tra il 1943 e il 1945 questi sotterranei divennero una vera città invisibile, offrendo rifugio a centinaia di sfollati. È affascinante pensare che strutture nate per la guerra si siano trasformate nel riparo più prezioso per la vita di chi aveva perso tutto."
 
-Mi trovo qui: 44.825310°N 11.630420°E http://maps.google.com/maps?q=44.82532%2C11.63042
-Barbacane o baluardo di San Giorgio
+7. Le Mura Nuove di Borso d'Este (44.825840, 11.623890)
+"Proseguiamo lungo il tracciato delle 'Mura Nuove', quelle volute dal primo Duca di Ferrara, Borso d'Este, a metà del Quattrocento. In quel periodo il Po stava cambiando il suo corso, ritirandosi e lasciando dietro di sé nuove terre da proteggere. Borso non perse tempo: fece innalzare queste cortine rettilinee per blindare la città che cresceva. Se osservate bene la base, quella forma leggermente inclinata chiamata 'scarpa', capirete come già allora l'ingegneria estense avesse capito che per resistere ai colpi serviva solidità, non solo altezza. Un tempo, qui, queste mura non erano solo mattoni rossi: erano decorate con merlature dipinte, un tocco di eleganza che faceva capire a chi arrivava da fuori che Ferrara non era solo una fortezza, ma una capitale rinascimentale pronta a stupire."
 
-Mi trovo qui: 44.825390°N 11.634230°E http://maps.google.com/maps?q=44.82539%2C11.63423
-Baluardo della Montagna
+8. Porta Romana o di San Giorgio (44.824670, 11.628700)
+"Arriviamo a Porta Romana, o di San Giorgio, che per secoli è stato il biglietto da visita di chi giungeva a Ferrara da sud. È un varco che ha una storia di trasformazioni continue: immaginate il ponte di legno medievale, poi quello in ferro di fine Ottocento, fino alla struttura in cemento armato del 1950 che vediamo oggi, nata per riparare le ferite dei bombardamenti. Le statue che ci guardano dall'alto — San Giorgio, Maurelio, Rocco e Filippo Neri — vegliano su questo crocevia da quasi tre secoli. È il segno di una città che, pur dovendo adattare i suoi varchi al passaggio delle merci e delle auto moderne, non ha mai voluto rinunciare alla protezione dei suoi santi patroni."
 
-Mi trovo qui: 44.834610°N 11.635340°E http://maps.google.com/maps?q=44.83461%2C11.63535
-Ex Baluardo di San Rocco
+9. Barbacane o Baluardo di San Giorgio (44.825310, 11.630420)
+"Questo che ci affianca è il Barbacane, un vero veterano delle nostre mura. Il suo nome ha un’origine lontana, quasi esotica, e indicava un contrafforte difensivo che proteggeva il Po di Volano già dal Trecento. Alfonso I d'Este lo trasformò in un baluardo moderno, armato di cannoni, ma c'è un dettaglio che non dovete perdere: quella piccola guardiola cilindrica che svetta in cima. È una rarità assoluta, l'unica sopravvissuta di decine di garitte che un tempo punteggiavano tutto il perimetro cittadino. È un piccolo 'occhio' di pietra che, nonostante l'incuria dei secoli, continua a sorvegliare il nostro cammino, unico superstite di un sistema di sorveglianza che un tempo non dormiva mai."
 
-Mi trovo qui: 44.841000°N 11.634260°E http://maps.google.com/maps?q=44.841%2C11.63426
-le Mura di Ercole I d'Este, Torioone San Giovanni
+10. Baluardo della Montagna (44.825390, 11.634230)
+"Ci troviamo davanti a una vera leggenda: il Baluardo della Montagna, definito nel 1520 'la più superba fortezza del mondo'. Non è solo terra accumulata, ma una colossale montagna artificiale che ospitava i cannoni più temuti dell'arsenale estense: il Gran Diavolo e il Tremuoto, nomi che Ludovico Ariosto ha immortalato nel suo Orlando Furioso. Fu un luogo di stupore puro, capace di unire la guerra al lusso più sfrenato. Dentro questo bastione, Ercole II fece costruire grotte segrete decorate con conchiglie marine, specchi e foglie d'oro, oltre a un serraglio con leoni, struzzi e asini nani. Pensate che persino Michelangelo, il genio del Rinascimento, venne a Ferrara apposta per studiare la perfezione di queste difese. Camminare qui significa attraversare quello che un tempo era un parco dei divertimenti rinascimentale celato nel cuore di una fortezza."
 
-Mi trovo qui: 44.848600°N 11.632130°E http://maps.google.com/maps?q=44.8486%2C11.63213
-Montagnola del Barchetto o Rotonda
+11. Baluardo di San Tommaso (44.830070, 11.633170)
+"Procediamo lungo il fianco della 'Montagna' fino al Baluardo di San Tommaso. La sua tipica forma a freccia, costruita all'inizio del Cinquecento, era un capolavoro di ingegneria militare che non lasciava angoli ciechi al nemico. Ma mentre passiamo, il passo si fa più rispettoso. La colonna marmorea che vedete spuntare dal bastione ci ricorda che la storia di questi luoghi non è fatta solo di baluardi e cannoni, ma di un dramma che ci tocca da vicino: la notte del 1943, qui furono fucilati Girolamo Savonuzzi e Arturo Torboli, due uomini che pagarono con la vita il coraggio delle proprie idee antifasciste. È un luogo che ci ricorda come, tra queste mura, la storia militare si intrecci indelebilmente con la lotta per la nostra libertà."
 
-Mi trovo qui: 44.849220°N 11.624450°E http://maps.google.com/maps?q=44.84922%2C11.62445
-Porta degli Angeli
+12. Ex Baluardo di San Rocco (44.834610, 11.635340)
+"Proseguiamo camminando sui passi dell'ex Baluardo di San Rocco. Oggi la sua presenza è più evocata che visibile: il perimetro è segnato solo dalle siepi che corrono dove un tempo si elevavano le mura imponenti. Fu demolito alla fine dell'Ottocento, e la cosa incredibile è che gran parte dei suoi mattoni fu riciclata per costruire la Ferrara che oggi viviamo ogni giorno; un vero e proprio 'passaggio di testimone' tra la città fortificata e quella moderna. A pochi passi da noi c'è anche il resto del 'doccile' di San Rocco, un pezzo di genio ingegneristico che ci racconta come Ferrara, secoli fa, avesse già capito che il vero segreto di una città non era solo difenderla, ma mantenerla sana e pulita con sistemi fognari all'avanguardia. Un bastione che, anche svanendo, ha continuato a prendersi cura della città."
 
-Mi trovo qui: 44.849140°N 11.624220°E http://maps.google.com/maps?q=44.84914%2C11.62423
-Le Mura
+13. Torrione di San Giovanni (44.841000, 11.634260)
+"Entriamo ora nel cuore pulsante dell'Addizione Erculea, il progetto che tra il 1493 e il 1505 trasformò Ferrara nella prima città moderna d'Europa. Il Torrione di San Giovanni non è solo un presidio militare, è il perno di questa rivoluzione urbanistica voluta dal Duca Ercole I e da Biagio Rossetti. Notate come il terrapieno — che un tempo serviva a smorzare l'impatto delle palle di cannone — sia diventato oggi il nostro polmone verde. Se alzate lo sguardo verso il Cimitero Ebraico, che si intravede poco lontano, avrete una testimonianza viva di una comunità che sotto gli Este godette di privilegi unici, contribuendo a rendere Ferrara un centro di cultura e tolleranza in un'epoca spesso intollerante. Siamo su un confine che ha saputo proteggere non solo la città, ma anche la sua anima più cosmopolita."
 
-Mi trovo qui: 44.849700°N 11.616120°E http://maps.google.com/maps?q=44.84971%2C11.61613
-Torrione del Barco
+14. Le Mura di Ercole I d'Este (44.844755, 11.632965)
+Provate a chiudere per un istante gli occhi e a immaginare la Ferrara di fine Quattrocento. Non è la città che conosciamo oggi, ma un cantiere a cielo aperto, un fermento di idee. Siete nel cuore del progetto di Ercole I d'Este e del suo genio di corte, Biagio Rossetti. Qui, tra il Torrione di San Giovanni e quello del Barco, non state semplicemente camminando sopra un terrapieno: state percorrendo il confine di un sogno moderno. Le radici degli alberi sotto i vostri piedi non sono solo natura, sono l'armatura segreta di Ferrara: insieme alla massa della terra, formano un cuscino naturale che per secoli ha assorbito l'impatto dei cannoni. Ogni albero che incontriamo è un soldato silenzioso che presidia ancora, dopo cinque secoli, la bellezza di questa città."Stiamo percorrendo il tratto più suggestivo del circuito, il camminamento alto che per secoli è stato dominio esclusivo delle sentinelle. Provate a immaginare: di notte, qui, si scrutava l'oscurità con il cuore in gola, pronti a dare l'allarme al minimo movimento oltre il vallo. Oggi, per fortuna, lo scenario è radicalmente cambiato: al posto dei soldati troviamo ciclisti, bambini che giocano e il ritmo sereno di chi vive la Ferrara di oggi. Eppure, camminando sopra questi nove chilometri di mattoni rossi, si percepisce ancora la forza di un confine che, pur avendo cambiato funzione, continua a separare il cuore storico della nostra città dal mondo aperto della pianura. È il confine tra il nostro passato e il nostro presente."
 
-Mi trovo qui: 44.836960°N 11.604140°E http://maps.google.com/maps?q=44.83697%2C11.60415
-Isola e Palazzo di Belvedere
+15. Montagnola del Barchetto o Rotonda (44.848600, 11.632130)
+"Questo è un luogo carico di suggestioni, dove la storia si fa leggenda. Questa montagnola vigilava sulla 'Rotonda', la residenza di svago dove Ercole II viveva tra giardini geometrici, aironi e ruscelli. Ma, se passate di qui nelle sere d'autunno, quando soffia la tramontana, tendete bene l'orecchio. I ferraresi raccontano che si possa ancora sentire l' 'Urlòn dal Barch': la leggenda vuole che il servitore Magrino, dopo un esorcismo, sia stato condannato a vagare in eterno tra questi alberi, urlando nella tempesta. Che ci crediate o no, c'è un'energia strana in questo punto, come se le mura volessero custodire i segreti più oscuri di una corte che, tra feste e piaceri, non era sempre così serena come voleva apparire."
 
-Mi trovo qui: 44.833360°N 11.609040°E http://maps.google.com/maps?q=44.83337%2C11.60905
-Darsena
+16. Porta degli Angeli e Case del Boia (44.849220, 11.624450)
+"La Porta degli Angeli è un punto dove i fatti storici si intrecciano con la fantasia popolare. Formidabile caposaldo fin dal 1525, per molto tempo è stata chiamata 'Casa del Boia' a causa del suo isolamento, anche se in realtà, nell'Ottocento, fu utilizzata più prosaicamente come macello. Attorno a questo varco ruota una delle leggende più famose di Ferrara: si diceva che fosse stata murata alle spalle di Cesare d'Este, in fuga durante la devoluzione del 1598, per impedire ai nemici di seguirlo. L'archeologia moderna ha però dimostrato che il passaggio rimase vivo e praticabile ancora a lungo. Il rivellino che vedete oggi è una ricostruzione che ci aiuta a visualizzare come l'intero sistema fosse circondato da fossati d'acqua, pronti a essere difesi con ponti levatoi che qui, in questo angolo di città, sembrano ancora riemergere dal silenzio."
 
-Mi trovo qui: 44.832330°N 11.616440°E http://maps.google.com/maps?q=44.83233%2C11.61645
-Porta Paola
+17. Torrione del Barco (44.849700, 11.616120)
+"Siamo davanti al colosso del circuito: il Torrione del Barco. Con i suoi ventuno metri di diametro, è il più grande e imponente tra quelli progettati da Biagio Rossetti e Bartolomeo Tristano nel 1493. Dentro questo gigante si nasconde una casamatta incredibile, con una volta a botte che era un vero prodigio dell'ingegneria militare. Se guardate bene le bombardiere a doppia tromba e le cannoniere ricavate nella muratura, capirete come Ferrara cercasse continuamente di superare i propri limiti tecnologici per restare inespugnabile. Ogni feritoia è un occhio che ha scrutato il fossato per secoli; è la prova vivente di una città che non si accontentava di costruire mura, ma cercava di trasformare costantemente la propria 'pelle' per restare al sicuro."
 
-Mi trovo qui: 44.825840°N 11.623890°E http://maps.google.com/maps?q=44.82584%2C11.6239
-Le Mura Nuove di Borso d'Este
+18. Le Mura Cinquecentesche (44.846672, 11.612189)
+"Ti trovi in uno dei tratti più emblematici, quello che costeggia via Porta Catena. Se guardi la linea di queste fortificazioni, noterai come tutto si distenda in un rettilineo solenne. Fu qui, nel cuore del Cinquecento, che la città decise di farsi scudo, alzando queste muraglie che hanno visto passare secoli di storia. C'è un angolo, proprio qui vicino, che racchiude bene lo spirito di questa difesa: il saliente di Porta Catena. Non è una torre gigantesca o un bastione monumentale; è una struttura quadrangolare, quasi timida, che sporge appena dal corpo principale, ma proprio nella sua semplicità nasconde un'efficacia incredibile. Camminando, noterai però anche le cicatrici del Novecento: i fornici di via Tumiati sono il segno delle bombe della Seconda Guerra Mondiale. Le pietre che vedi sono un puzzle unico: la saggezza dei mastri muratori del Cinquecento si fonde con la resilienza di una città che ha saputo riparare le proprie ferite senza mai cancellare la propria identità."
 
-Mi trovo qui: 44.830070°N 11.633170°E http://maps.google.com/maps?q=44.83008%2C11.63317
-Baluardo di San Tommaso
+19. La Fortezza Pontificia (44.842467, 11.607168)
+"Stiamo attraversando un tratto carico di una storia dolorosa e, per certi versi, cancellata. Dove oggi si stende il verde del parco e il Rione Giardino, nel 1608 sorgeva una gigantesca fortezza a pianta stellare, costruita dal Papa dopo aver strappato Ferrara agli Este. Per edificarla, fu raso al suolo in pochi mesi un intero quartiere, cancellando per sempre la delizia di Belvedere. Se guardi bene tra gli alberi del parco, scorgerai ancora due dei cinque baluardi originali, ormai silenti. E in questo stesso prato, nel 1853, si compì il sacrificio di tre patrioti — Succi, Malagutti e Parmeggiani — fucilati dagli austriaci perché sognavano un'Italia unita. È un luogo di contrasti: la violenza della storia e la pace di questo parco oggi convivono, ricordandoci quanto è costato difendere il sogno di libertà che portiamo nel cuore."
+
+20. Isola e Palazzo di Belvedere (44.836960, 11.604140)
+"Camminando in questa zona, tra Via San Giacomo e Via Darsena, è quasi impossibile immaginare che un tempo qui si estendesse la perla del Rinascimento ferrarese. L'Isola di Belvedere era un paradiso lungo un chilometro, con giardini geometrici, fontane e un palazzo frequentato da Ariosto e Tasso. Era il cuore del fasto ducale, celebrato in versi e ammirato da tutta Europa. Poi, nel 1618, la storia voltò pagina: in pochi mesi, tutto fu demolito per far posto alla Fortezza pontificia. Nulla è rimasto di quel fasto, solo la memoria. Dove oggi vediamo le strade normali di una città operosa, un tempo si tenevano banchetti principeschi e tornei. Un monito di come la storia sappia cancellare le tracce più brillanti, lasciando a noi il compito di immaginarle camminando su questo suolo."
+
+21. Darsena (44.833360, 11.609040)
+"Siamo quasi giunti al termine: la Darsena era il cuore pulsante di Ferrara, il porto fluviale che collegava la città al Po e al mondo, in particolare a Venezia. Per secoli, qui il viavai di merci e persone non si è mai fermato. Oggi, dopo una profonda riqualificazione, è tornata a essere lo spazio vitale dei ferraresi, dove i vecchi magazzini si trasformano in luoghi di cultura e incontro. Respira l'aria di questo porto rigenerato: è il traguardo della nostra Ferraronda. Hai percorso secoli di storia in pochi chilometri, dalla difesa militare alla cultura contemporanea, vedendo Ferrara da una prospettiva che pochi conoscono davvero.
+
+22. Arrivo (alternativo 44.834910, 11.611470)
+"Sei tornato al punto di partenza. La Ferraronda è completata: oltre 9 chilometri lungo le mura estensi, tra bastioni, porte monumentali e leggende che corrono tra i mattoni. Abbiamo camminato attraverso il potere dei Duchi, le ferite delle guerre e la bellezza di una città che ha saputo rinascere ogni volta. Grazie per aver scelto di esplorare questo confine straordinario: le mura ora hanno un pezzetto di storia in più, quella che abbiamo scritto insieme, passo dopo passo, lungo il percorso. Buona continuazione nella nostra Ferrara."
 
 
+TESTI ORIGINALI DEI TOTEM INFORMATIVI
+Mura Estensi di Ferrara — Ferraronda
+Trascrizioni da foto e OCR — Giugno 2026
+================================================================================
 
 
+BALUARDO DI SAN PAOLO
+--------------------------------------------------------------------------------
+ITALIANO:
+Da non confondere con l'omonimo dell'ex fortezza, il Baluardo di San Paolo
+venne solo fondato e non costruito nel 1585, con la sovrintendenza dell'architetto
+ferrarese Giovanni Battista Aleotti e del luogotenente Cornelio Bentivoglio.
+Una lunga cortina univa la pentagonale cittadella pontificia alle opere difensive
+della Porta di San Paolo: questo tratto di mura, costruito nel XVII secolo e
+rimaneggiato nell'Ottocento, sostituiva le precedenti difese medievali, più
+arretrate, demolite quando venne edificata la cittadella papalina nel primo
+Seicento. La cortina era ancora integra agli inizi degli anni Trenta del secolo
+scorso: a quell'epoca, sulla base di un piano industriale che prevedeva lo
+sviluppo urbano verso sud (lungo la direttrice della via Bologna), venne
+abbattuto un lungo segmento delle mura meridionali adiacenti all'ex fortezza
+per la costruzione della nuova torre dell'acquedotto e di altre infrastrutture
+nell'area della Piazza d'Armi.
+Negli anni '50 si completò l'espansione edilizia del Rione Giardino verso il
+canale di Burana, così che si è persa ogni traccia visibile del percorso delle
+mura per un tratto di circa 450 metri: è la lacerazione più estesa dell'intera
+cerchia urbana. Un altro squarcio è stato aperto all'imbocco dell'attuale via
+Kennedy nel 1967, mentre il terrapieno del tratto residuo verso ovest ha
+subito un ulteriore assottigliamento nel 1981, in occasione dei lavori per la
+collocazione della stazione delle autocorriere.
 
+INGLESE:
+Not to be confused with the former fortress of the same name, only the
+foundations of the Baluardo di San Paolo (Bastion of San Paolo) were laid
+in 1585, under the supervision of the Ferrarese architect Giovanni Battista
+Aleotti and Lieutenant Cornelio Bentivoglio.
+A long curtain wall joined the pentagonal pontifical fortress to the defensive
+structures of the Porta di San Paolo: this stretch of wall, built in the seventeenth
+century and reworked in the nineteenth century, replaced the earlier medieval
+defences which lay further back; these were demolished when the papal
+fortress was built at the beginning of the seventeenth century. The curtain
+wall was still intact at the beginning of the 1930s: at that time, as part of an
+industrial plan which included extending the urban development towards the
+south (along Via Bologna), a long segment of the southern walls adjacent to
+the former fortress was demolished to make way for the construction of the
+new aqueduct tower and other infrastructures in the Piazza d'Armi area.
+In the 1950s the expansion of the Rione Giardino building development
+towards the Burana canal was completed, resulting in any visible trace of
+the walls being lost for a stretch of around 450 metres - the largest breach
+in the entire city boundary. Another hole was torn open in 1967 where the
+current Via Kennedy begins, while the embankment of the residual stretch
+of wall to the west was further thinned in 1981, during the works to build the
+new bus station.
+
+
+================================================================================
+PORTA PAOLA
+--------------------------------------------------------------------------------
+ITALIANO:
+Precedentemente nota come Porta San Polo, l'odierna struttura venne costruita
+nel 1612 su disegno dell'architetto ferrarese Giovanni Battista Aleotti, in onore
+del papa regnante Paolo V Borghese, da cui derivò la denominazione Porta Paola.
+È indubbiamente il varco monumentale più prestigioso della città, con la facciata
+meridionale in pietra marmorea con bugnati rustici coronati da un timpano
+curvilineo spezzato al centro, espressione del linguaggio tardo manierista e
+proto-barocco. Affiancata dai baluardi di San Paolo e San Lorenzo, era
+ulteriormente protetta da un rivellino a freccia demolito nell'Ottocento.
+Restaurata tra il 2001 e il 2004 e consolidata dopo il sisma del 2012, è oggi
+sede del Centro di Documentazione sulle Mura di Ferrara.
+
+INGLESE:
+Formerly known as Porta San Polo, the current structure was built in 1612 to
+a design by the Ferrarese architect Giovanni Battista Aleotti, in honour of the
+reigning Pope Paolo V Borghese, from whom its name derives. It is undoubtedly
+the most prestigious monumental gateway in the city, with a southern facade in
+marble stone with rusticated bosses crowned by a curvilinear pediment split at
+its centre, a fine example of late Mannerist and proto-Baroque architectural
+language. Flanked by the bastions of San Paolo and San Lorenzo, it was further
+protected by an arrow-shaped ravelin demolished during the nineteenth century.
+Restored between 2001 and 2004 and reinforced after the 2012 earthquake, it
+is now home to the Centro di Documentazione sulle Mura di Ferrara.
+
+
+================================================================================
+BALUARDO DI SAN LORENZO
+--------------------------------------------------------------------------------
+ITALIANO:
+Sorge sul precedente Bastione di Castelnuovo, nome derivante dall'omonimo
+fortilizio estense costruito da Giovanni da Siena a partire dal 1427 a ridosso
+del fiume Po e smantellato tra il 1562 e il 1572.
+Costruito nel 1583 e ristrutturato in epoca papale (quando fu detto anche
+Baluardo di Sant'Agnese, a presidio dell'omonima Porta), costituisce insieme
+al precedente Baluardo di San Paolo il sistema di protezione della interposta
+Porta Paola edificata nel 1612. All'inizio del Novecento la sommità del bastione
+venne destinata al mercato settimanale ed il luogo era comunemente noto
+come "mercato dei cavalli": ancora oggi l'area assolve alle funzioni mercatali
+(il lunedì), oltreché di servizio per il parcheggio delle auto.
+A differenza dei baluardi di San Pietro, Sant'Antonio e dell'Amore, quello di
+San Lorenzo è privo di sporgenze arrotondate ai fianchi (i cosiddetti "orecchioni")
+e dotato solo di salienti. All'interno del terrapieno esistono lunghe gallerie
+situate poco sopra il livello di campagna e collegate al sovrastante piano di
+tiro mediante scale e sfiatatoi o botole: in passato questi anfratti (detti anche
+"casematte" o "camattoni") vennero abitati da indigenti e durante l'ultima
+guerra usati come rifugi antiaerei.
+Dal 2011 al 2018 l'intero Baluardo di San Lorenzo è stato oggetto di importanti
+lavori di consolidamento strutturale sia nei paramenti esterni, soggetti alle
+spinte deformative dei carichi terrosi interni, sia negli assetti murari interrati.
+
+INGLESE: (inizio visibile in foto, resto dedotto dal testo italiano)
+The Baluardo di San Lorenzo (Bastion of San Lorenzo) stands on the site of
+the ancient Castelnuovo bastion, the name of which is derived from the Este
+fortress built by Giovanni da Siena from 1427 alongside the River Po and
+demolished between 1562 and 1572.
+
+
+================================================================================
+BALUARDO E PORTA DI SAN PIETRO
+--------------------------------------------------------------------------------
+ITALIANO:
+Il Baluardo di San Pietro è la prima delle moderne fortificazioni costruite da
+Alfonso II d'Este tra il 1578 e il 1585, per potenziare le preesistenti mura
+quattrocentesche di Borso d'Este. Questi poderosi bastioni con cannoniere,
+orecchioni arrotondati e muri con base a scarpa erano progettati per resistere
+all'artiglieria moderna. Nel 1583 fu edificato un nuovo arco marmoreo sulla
+Porta di San Pietro, progettato da Giovan Battista Aleotti: incredibilmente,
+nel 1630 questa struttura marmorea fu smontata e reinstallata all'ingresso
+principale della fortezza papale, e la Porta di San Pietro venne definitivamente
+murata. I lavori di restauro del Comune di Ferrara nel 2001-2002 hanno
+riportato alla luce l'arco dell'antica Porta dagli spalti interni.
+
+INGLESE:
+The Bastion of San Pietro is the first of the state-of-the-art fortifications
+built by Alfonso II d'Este between 1578 and 1585, to modernise and strengthen
+the pre-existing fifteenth-century walls of Borso d'Este. These mighty bastions
+with embrasures, rounded ramparts and walls with batter base were designed
+to withstand modern artillery. In 1583, a new marble arch was built over the
+Porta di San Pietro, designed by Giovan Battista Aleotti. Incredibly, in 1630
+this marble structure was dismantled and reinstalled at the main entrance to
+the papal fortress, and the opening of the Porta di San Pietro was definitively
+walled up. Restoration works carried out by the Municipality of Ferrara in
+2001-2002 revealed the arch of the ancient gate from the interior embankments.
+
+
+================================================================================
+BALUARDO DI SANT'ANTONIO
+--------------------------------------------------------------------------------
+ITALIANO:
+Situato in corrispondenza del monastero benedettino di Sant'Antonio in
+Polesine, è l'elemento centrale del sistema bastionato meridionale a ridosso
+della sponda del fiume Po, quasi del tutto interrato già alla fine del XVI secolo.
+Assieme ai baluardi di San Pietro e dell'Amore, anche questa struttura venne
+edificata su impulso del duca Alfonso II d'Este tra il 1578 e il 1585.
+Di estremo interesse appare la vasta area prospiciente i baluardi occupata
+dal vallo un tempo allagato. Le difese esterne costituite dalla controscarpa,
+dalla via coperta e dagli spalti che giungevano fino ai limiti del Po di Volano
+apparivano nitide ancora fino a poco dopo la Seconda guerra mondiale: il
+sottomura era coltivato a pioppeto industriale che impediva la visione delle
+opere bastionate, mentre i terrapieni hanno subito una sensibile riduzione
+nel 1967 per allargare la strada interna a ridosso dell'abitato (l'attuale via
+Baluardi).
+Le gallerie e le casematte dei grandi baluardi meridionali furono utilizzate
+come rifugi antiaerei tra il 1943 e il 1945, così come anche al termine del
+conflitto funsero da riparo per indigenti e sfollati: sebbene murate, le tracce
+degli ingressi sono ancora ben visibili.
+
+INGLESE:
+Located at the Benedictine monastery of Sant'Antonio in Polesine, this
+bastion is the central element of the southern system of bastion defences
+behind the banks of the river Po, which was almost completely buried at the
+end of the 16th century. Together with the bastions of San Pietro and Amore,
+this structure was also built according to the will of Duke Alfonso II d'Este
+between 1578 and 1585.
+The vast area opposite the bastions occupied by the wall is of particular
+interest, and was once flooded. The external defences, including a counter-
+scarp, a covered path and a glacis sloping down to the banks of the Po di
+Volano were clearly visible even just after the Second World War: the area
+beneath the wall was cultivated with poplar trees, shielding the fortified works
+from view, while the embankments were significantly reduced in 1967 in order
+to widen the internal road next to the built-up area (the current Via Baluardi).
+The galleries and casemates of the great southern bastions were used as
+air-raid shelters between 1943 and 1945, and after the end of the conflict
+they also served as shelters for the homeless and displaced people: although
+walled up, the traces of the entrances are still clearly visible.
+
+
+================================================================================
+LE MURA NUOVE DI BORSO D'ESTE
+--------------------------------------------------------------------------------
+ITALIANO (trascrizione manuale da Stefano Franzoni):
+Il graduale prosciugamento del ramo del Po lambente il fronte meridionale di
+Ferrara (nell'alveo corrispondente alle attuali Via delle Ghiara e XX Settembre)
+causò tra la fine del XIV secolo e la prima metà del XV secolo, la saldatura
+all'abitato urbano dell'antica isola fluviale di Sant'Antonio in Polesine.
+Al marchese Nicolò III d'Este (1383-1441) spettano le prime azioni di difesa
+del tessuto urbano inglobato, tra cui la costruzione nel 1425-28 del Castel
+Nuovo ad opera dell'ingegnere Giovanni da Siena (nell'area dell'attuale Teatro
+Verdi), fortezza demolita tra il 1562 e il 1572 per fare spazio al baluardo di
+San Lorenzo.
+L'ulteriore inaridimento del Po spinse prima Leonello d'Este (1407-1450) e
+soprattutto il successore Borso (1413-1471) a far proteggere con nuove
+muraglie tutta la zona meridionale compresa tra Castel Nuovo a sud-ovest e
+il Barbacane di San Giorgio a sud-est, affidandone la realizzazione nel 1442
+all'architetto Pietrobono Brasavola, cui succedettero Cristoforo della Carradora,
+Benvenuto degli Ordini e il figlio Pietro.
+Nel 1451 lungo la linea delle "Mura Nuove" furono aperte le porte di San Pietro,
+dell'Amore e di San Giorgio, poi murate e/o modificate nei secoli successivi.
+Un tempo dotate di merlature dipinte, le rosse cortine rettilinee di Borso
+conservano ancora la base a scarpa e ampie porzioni del cordolo in laterizio,
+così come in alcuni punti sono riscontrabili le tracce murarie delle alte torri
+quadrangolari, abbattute nella seconda metà del 1500.
+
+
+================================================================================
+PORTA ROMANA O DI SAN GIORGIO
+--------------------------------------------------------------------------------
+ITALIANO:
+L'attuale rudere è quanto rimane del complesso architettonico che fino alla
+fine del XVI secolo presidiava il principale ingresso meridionale della città,
+situato dinanzi alla chiesa di San Giorgio, prima cattedrale di Ferrara. Il ponte
+originariamente in legno, prospetticamente centrato con la Porta, fu ricostruito
+in mattoni nel 1682 e in ferro tra il 1891 e il 1894. Semidistrutto dai
+bombardamenti del 1944, fu riedificato nel 1950 in cemento armato, con le
+statue dei santi comprotettori Giorgio, Maurelio, Rocco e Filippo Neri,
+realizzate nel 1786 dallo scultore veronese Gaetano Cignaroli. A difesa della
+Porta, i duchi Ercole II e Alfonso II fecero costruire tra il 1557 e il 1563 un
+nuovo baluardo, poi parzialmente demolito tra il 1952 e il 1958.
+
+INGLESE:
+The current ruins are all that remains of the architectural complex that until
+the end of the sixteenth century guarded the main southern entrance to the
+city, situated in front of the church of San Giorgio, Ferrara's first cathedral.
+The bridge, originally made of wood and aligned with the gateway, was rebuilt
+in brick in 1682 and in iron between 1891 and 1894. Partially destroyed in the
+bombings of 1944, it was rebuilt in 1950 in reinforced concrete, with statues
+of the city's patron saints Giorgio, Maurelio, Rocco and Filippo Neri, created
+in 1786 by the Veronese sculptor Gaetano Cignaroli. To defend the gateway,
+Dukes Ercole II and Alfonso II ordered the construction of a new bastion
+between 1557 and 1563, later partially demolished between 1952 and 1958.
+
+
+================================================================================
+BARBACANE O BALUARDO DI SAN GIORGIO
+--------------------------------------------------------------------------------
+ITALIANO:
+Sin dalla fine del Trecento si hanno notizie di un particolare dispositivo
+fortificato che presidiava il ramo del Po di Volano nei pressi del borgo di San
+Giorgio: il Barbacane. Il termine barbacane deriva dal latino medievale o
+dall'arabo volgare bar-al-bagara, letteralmente 'recinto del bestiame',
+indicante un contrafforte a scopo difensivo. Tra il 1521 e il 1525 Alfonso I
+d'Este trasformò la vecchia struttura in baluardo munito di cannoniere,
+rifondato ulteriormente nel 1557 su commissione del duca Ercole II. Il
+manufatto fu parzialmente distrutto nel 1893 per la barriera daziaria e
+nuovamente squarciato tra il 1952 e il 1958 per il traffico verso la Via Ravenna.
+La guardiola cilindrica che sovrasta la struttura è l'unica testimonianza delle
+decine di garitte costruite nel XVII e XVIII secolo lungo l'intero circuito della città.
+
+INGLESE:
+Since the end of the fourteenth century, historical documentation contains
+references to a particular fortified structure that guarded the Po di Volano
+near the village of San Giorgio: the Barbican. The term barbican derives from
+the medieval Latin barbacanis or from the Arabic bar-al-bagara, literally
+meaning 'livestock enclosure', indicating a defensive buttress. Between 1521
+and 1525, Alfonso I d'Este transformed the old structure into a bastion
+equipped with embrasures, further rebuilt in 1557 on the orders of Duke
+Ercole II. The structure was partially destroyed in 1893 to create a toll barrier
+and torn apart again between 1952 and 1958 to ease traffic toward Via Ravenna.
+The cylindrical watchtower above the structure is the sole surviving example
+of the dozens of sentry boxes built along the city's entire fortified circuit in
+the seventeenth and eighteenth centuries.
+
+
+================================================================================
+BALUARDO DELLA MONTAGNA
+--------------------------------------------------------------------------------
+ITALIANO:
+Tra il 1518 e il 1522, abbattute le torri quattrocentesche, venne innalzato il
+nuovo tratto di mura tra la Porta di San Giorgio e il Baluardo di San Tommaso.
+Nel 1518 il militare Sebastiano Bonmartini progettò il grande baluardo a freccia
+provvisto di cannoniere, definito nel 1520 da Ferrante Gonzaga 'la più superba
+fortezza del mondo'. Con la terra degli scavi fu innalzata sul bastione una
+colossale montagna, con la funzione di cavaliere su cui posizionare le potenti
+artiglierie del duca Alfonso d'Este, note in tutta Europa. Durante le soste a
+Ferrara tra il 1526 e il 1529, anche Michelangelo e Antonio da Sangallo
+visitarono questo manufatto, apprezzandone l'originalità architettonica.
+
+INGLESE:
+Between 1518 and 1522, following the demolition of the fifteenth-century
+towers, a new stretch of walls was built between the Porta di San Giorgio and
+the Bastion of San Tommaso. In 1518, the military engineer Sebastiano
+Bonmartini designed the large arrow-shaped bastion equipped with embrasures,
+described in 1520 by Ferrante Gonzaga as 'the most splendid fortress in the
+world'. An enormous mound was raised on top of the bastion with the earth
+from the excavations, serving as a cavalier upon which the powerful artillery
+of Duke Alfonso d'Este — famed throughout Europe — was installed. During
+their stays in Ferrara between 1526 and 1529, both Michelangelo and Antonio
+da Sangallo visited this structure, expressing admiration for its original
+architecture.
+
+
+================================================================================
+BALUARDO DI SAN TOMMASO
+--------------------------------------------------------------------------------
+ITALIANO:
+Il Baluardo di San Tommaso prende il nome dalla limitrofa chiesa omonima,
+distrutta nel 1836, situata all'incrocio delle attuali vie Sant'Andrea e Formignana.
+Dalla tipica forma a freccia e senza orecchioni nei fianchi, il baluardo venne
+costruito alla fine del secondo decennio del XVI secolo, quando il duca Alfonso
+I d'Este decise di potenziare il settore sudorientale della città. L'ingegnere
+militare Sebastiano Bonmartini da Monselice sovrintese alla costruzione,
+riutilizzando il materiale delle vecchie cortine e dei monasteri del borgo della
+Pioppa, precedentemente demolito. Il manufatto proteggeva il fianco settentrionale
+del più grande Baluardo della Montagna. A poca distanza scorre il settecentesco
+doccile di San Tommaso, costruito in realtà nel 1524 per far defluire le acque
+fognarie nel canale Naviglio di Baura.
+
+INGLESE:
+The Bastion of San Tommaso takes its name from the neighbouring church of
+the same name, destroyed in 1836, located where the present-day Via
+Sant'Andrea and Via Formignana roads cross. With a typical arrow shape and
+no rounded ramparts on its sides, the bastion was built at the end of the
+second decade of the sixteenth century, when Duke Alfonso I d'Este decided
+to reinforce the south-eastern defences of the city. The military engineer
+Sebastiano Bonmartini from Monselice oversaw the construction, reusing
+materials from the old curtain walls and monasteries of the demolished Pioppa
+suburb. The structure was built to protect the northern flank of the larger
+Baluardo della Montagna. A short distance away is the so-called doccile of
+San Tommaso, actually built in 1524 to convey the city's sewage to the
+Naviglio di Baura canal.
+
+
+================================================================================
+EX BALUARDO DI SAN ROCCO
+--------------------------------------------------------------------------------
+ITALIANO:
+L'ex Baluardo di San Rocco prende il nome dall'omonima chiesa che sorgeva
+nelle sue vicinanze. Nel 1862 il municipio ne decretò la demolizione, avvenuta
+in più fasi e completata nel 1872: i mattoni recuperati furono impiegati in varie
+opere pubbliche, mentre la terra del bastione fu utilizzata per allargare la strada
+interna sui bastioni e per riempire il fossato. Nella sezione di raccordo tra il
+terrapieno e le mura fu costruita una struttura ad arco per colmare il vuoto,
+interrompendo la continuità della cortina. Non lontano dal sito del bastione,
+gli scavi archeologici del 1979 hanno portato alla luce le fondamenta sepolte,
+il cui perimetro è ora segnato da siepi.
+
+INGLESE:
+The former Bastion of San Rocco takes its name from the church of the same
+name that once stood nearby. In 1862, the municipality decreed its demolition,
+which took place in several stages and was completed in 1872. The recovered
+bricks were used in various public works, while the earth from the bastion was
+largely used to widen the internal road on the ramparts and to fill the trench.
+In the section connecting the embankment to the walls, an arched structure
+was built to fill the gap, interrupting the continuity of the curtain wall. Not far
+from the site of the former bastion, archaeological excavations in 1979 exposed
+the buried foundations, whose perimeter is now marked by hedges.
+
+
+================================================================================
+LE MURA DI ERCOLE I D'ESTE — TORRIONE SAN GIOVANNI
+--------------------------------------------------------------------------------
+ITALIANO (parziale da totem, integrato da fonte ferrarainfo.com):
+Questo tratto di mura, realizzato tra il 1493 e il 1505 per ordine di Ercole I
+d'Este su progetto dell'architetto di corte Biagio Rossetti, nacque
+contestualmente all'urbanizzazione della vasta area a nord del castello,
+la cosiddetta Addizione Erculea. Grande importanza fu data al terrapieno
+addossato alla base dei bastioni: esso smorzava la forza dei proiettili e,
+sulla parte più arretrata, consentiva la piantagione di alberi ad alto fusto
+che irrobustivano il fronte bastionato e offrivano ulteriore ostacolo al tiro
+degli assalitori. Oggi questa soluzione militare è diventata un prezioso polmone
+verde urbano. Non lontano dal Torrione di San Giovanni, lungo il percorso in
+quota, si intravede il famoso Cimitero Ebraico, risalente al 1626.
+
+INGLESE (da fonte ferrarainfo.com):
+This stretch of walls, built between 1493 and 1505 on the orders of Ercole I
+d'Este to a design by the court architect Biagio Rossetti, was created alongside
+the urbanisation of the vast area north of the castle — the so-called Herculean
+Addition. Great importance was given to the embankment built against the base
+of the bastions: it absorbed the force of projectiles and, on its rearmost part,
+allowed the planting of tall trees that strengthened the bastioned front and
+provided a further obstacle to enemy fire. Today this military solution has become
+a precious green lung for the city. Not far from the Torrione di San Giovanni,
+along the elevated path, the famous Jewish Cemetery, dating back to 1626,
+can be glimpsed.
+
+
+================================================================================
+MONTAGNOLA DEL BARCHETTO O ROTONDA
+--------------------------------------------------------------------------------
+ITALIANO:
+Già documentata nel 1529, la montagnola di terra presidiava la cosiddetta
+Rotonda, la residenza fatta costruire da Ercole II d'Este nel 1550, sfruttando
+le strutture dell'antica Punta di Francolino. All'interno del torrione fu ricavata
+la camera da letto del duca, ottagonale con volta affrescata da Camillo Filippi;
+una scalinata conduceva al cortile delimitato da una loggia dipinta con paesaggi
+dal pittore fiammingo Luca d'Olanda. La residenza era immersa in un contesto
+di giardini geometrici, ruscelli, recinti per struzzi e serragli per aironi e gru.
+Specie d'estate, la frescura del sito attirava le corti estensi per banchetti,
+conviti musicali e tornei cavallereschi. La Rotonda venne distrutta nel 1616.
+
+INGLESE:
+Already documented in 1529, the earth mound guarded the so-called Rotonda,
+the residence commissioned by Ercole II d'Este in 1550, incorporating the walls
+of the ancient Punta di Francolino. Inside the tower was the Duke's octagonal
+bedroom with a vault decorated with frescoes by Camillo Filippi; a stairway led
+to a courtyard bordered by a loggia painted with landscapes by the Flemish
+painter Lucas of Holland. The residence was set within geometric gardens,
+streams, paddocks for ostriches and enclosures for herons and cranes.
+Especially in summer, the coolness of the site attracted the Este courts for
+banquets, musical feasts and literary-inspired knights' tournaments. The
+Rotonda was destroyed in 1616.
+
+
+================================================================================
+PORTA DEGLI ANGELI
+--------------------------------------------------------------------------------
+ITALIANO (da fonte museoferrara.it):
+Porta degli Angeli è l'unico varco di accesso settentrionale del circuito
+costruito da Ercole I d'Este tra il 1493 e il 1505 attorno all'Addizione Erculea.
+L'originaria torre quadrangolare fu trasformata più volte nel corso dei secoli:
+da struttura difensiva a barriera doganale nel Settecento, poi nel 1820 divenne
+uno scannatoio per suini — i cui strazianti gridi rimasero impressi nell'oralità
+popolare — e infine abitazione civile fino agli anni Ottanta del Novecento.
+È proprio da quell'uso come macello che nacque il nome con cui i ferraresi la
+conoscono ancora oggi: "Ca' dal boia", la Casa del Boia. Una denominazione
+sinistra e suggestiva, ma del tutto impropria: il boia non vi ha mai abitato.
+I restauri degli anni Ottanta e Novanta hanno riportato alla luce l'arco
+d'ingresso meridionale, la soglia in trachite segnata dai solchi delle ruote
+dei carri e tracce delle antiche merlature.
+
+INGLESE: non disponibile da totem
+
+
+================================================================================
+TORRIONE DEL BARCO
+--------------------------------------------------------------------------------
+ITALIANO:
+Con i suoi 21 m di diametro esterno è il torrione circolare più grande tra quelli
+costruiti da Biagio Rossetti e Bartolomeo Tristano lungo il perimetro fortificato
+dell'Addizione Erculea, precisamente sul vertice nordoccidentale. Edificato
+a partire dal 1493, il manufatto presenta una struttura molto interessante per
+la storia dell'architettura militare estense, e non solo. La grande volta a botte
+della casamatta, probabilmente derivata dalle invenzioni dell'ingegnere senese
+Francesco di Giorgio Martini, suddivide la piattaforma dall'ambiente inferiore
+dove venivano calate le bocche da fuoco tramite un paranco. Il voltone era
+fiancheggiato da un breve rivellino con scala protetta per accedere alla linea
+dei tiratori in casamatta e uscire in campo aperto. Altre botole per l'osservazione
+e il tiro sono tuttora visibili. Le bombardiere a doppia tromba nei settori laterali
+della piattaforma (attrezzata a sua volta con un parapetto, ora mancante,
+sostenuto da archetti di scarico) sono successive al primo impianto della
+struttura, la cui modificazione risulta anche dall'arretramento della cortina
+nella parte verso la Porta di San Benedetto, più a sud, rinnovata tra il 1514
+e il 1521. Nella muratura di raccordo, tra il corpo avanzato parallelo e la
+cortina, sono visibili due cannoniere, all'interno delle quali venivano posizionate
+artiglierie pesanti con la funzione di proteggere e difendere il vallo verso il
+saliente di Porta Catena, più a sud.
+
+INGLESE: (inizio visibile in foto)
+The Torrione del Barco (Barco Tower)...
+[testo EN non completamente leggibile dalla foto]
+
+
+================================================================================
+ISOLA E PALAZZO DI BELVEDERE
+--------------------------------------------------------------------------------
+ITALIANO:
+Lunga circa un chilometro, l'Isola di Belvedere fu in realtà uno dei luoghi più
+ameni dell'intera Italia rinascimentale. Situato lungo l'antico corso del Po, a
+poca distanza dal vertice sudoccidentale delle mura cittadine, l'antico sedime
+dell'isola occupa il vastissimo spazio oggi compreso tra le vie San Giacomo,
+Via Darsena, Via Mulinetto, Via Saragat, Via Arginone e Maverna.
+La salubrità dell'aria, l'abbondanza di acqua e la presenza di boschi
+rappresentarono i principali motivi che spinsero il duca Alfonso I d'Este
+(1476-1534) a trasformare della striscia di terra emersa un esclusivo luogo
+residenziale. Il cantiere della striscia avviò nel 1513, sotto la sovrintendenza
+di Biagio Rossetti: in meno di un decennio sorsero il palazzo, i giardini
+geometrici, le fontane, i bagni idraulici, i serragli per animali esotici e,
+soprattutto, il complesso edificio incernierato su un palazzo con tour quadrangolari
+e diversi ambienti decorati internamente con ampie torri quadrangolari, ampia corte aperta su loggati
+e diversi ambienti decorati internamente. Il terrapieno era ancora integro agli inizi
+terrapieno. Il terrapieno contribuiva a smorzare la forza dei. Esaltato dai principali letterati ferraresi del primo Cinquecento (persino Ariosto
+nella terza edizione del Furioso) il Belvedere fu per tutto il il secolo
+un autentico palcoscenico edilizio e degli allestimenti teatrali più
+importanti, tra cui l'Aminta del Tasso (1573).
+Il palazzo di questo luogo edilizio Ideonico fu completamente cancellato tra il 1608
+e il 1618, quando l'isola venne completamente spianata per far posto alla nuova
+fortezza pontificia.
+
+INGLESE:
+Around a kilometre long, the Isola di Belvedere was actually one of the most
+pleasant leisure destinations in the whole of Renaissance Italy. Situated on
+the ancient course of the river Po not far from the south-western vertex of the
+city walls, the ancient site of the island now lies between Via San Giacomo,
+Via Darsena, Via Mulinetto, Via Saragat, Via Arginone and Maverna.
+The clean, salubrious air, the abundance of water and the presence of woods
+were the main reasons for which Duke Alfonso I d'Este (1476-1534) decided
+to make this island into an exclusive residential dwelling. Building of the site
+began in 1513, under the supervision of Biagio Rossetti, and in less than a
+decade a complex of buildings centred around a great palace. With a longitudinal
+galleries and several spaces with rich interior decoration.
+Exalted by the leading literary figures of Ferrara in the early sixteenth century
+(even Ariosto refers to the palace in the third edition of his epic poem Orlando
+Furioso), the Palazzo di Belvedere served as a stage for the great and good
+of Ferrara for the entire century, and was used to hold a number of important
+performances, including Torquato Tasso's Aminta (1573).
+This earthly Eden was consigned to history between 1608 and 1618, when
+the island was completely levelled to make way for the new papal fortress.
+
+
+================================================================================
+NOTE
+--------------------------------------------------------------------------------
+- Testi IT/EN letti direttamente dalle foto dei totem
+- Testi parziali dove la foto non copriva l'intero pannello
+- Le Mura Nuove di Borso d'Este: trascrizione manuale di Stefano Franzoni
+- Porta degli Angeli IT: da fonte museoferrara.it (nessun totem fotografato)
+- Torrione del Barco EN: non completamente leggibile dalla foto
+- Baluardo di San Lorenzo EN: solo inizio visibile in foto
+- Mancano totem fotografati per: Darsena, Fortezza Pontificia,
+  tratti narrativi aggiuntivi
+================================================================================
 

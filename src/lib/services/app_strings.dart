@@ -22,6 +22,9 @@ class AppStrings {
   final String voiceSpeed;
   final String exitApp;
   final String exitAppConfirm;
+  final String exitMapTitle;
+  final String exitMapMessage;
+  final String exit;
   final String cancel;
   final String resume;
   final String pause;
@@ -52,6 +55,9 @@ class AppStrings {
     required this.voiceSpeed,
     required this.exitApp,
     required this.exitAppConfirm,
+    required this.exitMapTitle,
+    required this.exitMapMessage,
+    required this.exit,
     required this.cancel,
     required this.resume,
     required this.pause,
@@ -88,6 +94,9 @@ class AppStrings {
       voiceSpeed: 'Velocità lettura',
       exitApp: 'Esci',
       exitAppConfirm: 'Vuoi uscire dall\'app?',
+      exitMapTitle: 'Uscire dalla mappa?',
+      exitMapMessage: 'Il percorso verrà interrotto.',
+      exit: 'Esci',
       cancel: 'Annulla',
       resume: 'Riprendi',
       pause: 'Pausa',
@@ -118,6 +127,9 @@ class AppStrings {
       voiceSpeed: 'Reading speed',
       exitApp: 'Exit',
       exitAppConfirm: 'Do you want to exit the app?',
+      exitMapTitle: 'Leave the map?',
+      exitMapMessage: 'The route will be interrupted.',
+      exit: 'Exit',
       cancel: 'Cancel',
       resume: 'Resume',
       pause: 'Pause',
@@ -148,6 +160,9 @@ class AppStrings {
       voiceSpeed: '朗读速度',
       exitApp: '退出',
       exitAppConfirm: '您要退出应用程序吗？',
+      exitMapTitle: '离开地图？',
+      exitMapMessage: '路线将被中断。',
+      exit: '退出',
       cancel: '取消',
       resume: '继续',
       pause: '暂停',

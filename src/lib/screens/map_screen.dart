@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_compass/flutter_map_compass.dart';
 import 'package:latlong2/latlong.dart' as ll;
+import 'package:wakelock_plus/wakelock_plus.dart';
 import '../models/circuit.dart';
 import '../models/poi.dart';
 import '../services/app_strings.dart';
@@ -60,6 +61,8 @@ class _MapScreenState extends State<MapScreen> {
   @override
   void initState() {
     super.initState();
+    // Mantieni lo schermo acceso per tutta la durata della mappa
+    WakelockPlus.enable();
 
     _trackRecorder = TrackRecorder();
     _gpsController = GeoPositionController(widget.circuit, _trackRecorder);
@@ -154,6 +157,8 @@ class _MapScreenState extends State<MapScreen> {
 
   @override
   void dispose() {
+    // Rilascia il wake lock quando si esce dalla mappa
+    WakelockPlus.disable();
     _autoCloseTimer?.cancel();
     widget.ttsService.onSpeakCompleted = null;
     _gpsController.removeListener(_onPositionChanged);
